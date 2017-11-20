@@ -74,8 +74,8 @@ class scrapRadius():
             if i==0:
                 continue
 
-            self.coordinates.append([self.sheet_in.row(i)[2], self.sheet_in.row(i)[3]])
-            print([self.sheet_in.row(i)[2], self.sheet_in.row(i)[3]])
+            self.coordinates.append([self.sheet_in.row(i)[2].value, self.sheet_in.row(i)[3].value])
+            print([self.sheet_in.row(i)[2].value, self.sheet_in.row(i)[3].value])
 
     def passLogin(self):
 
@@ -130,7 +130,7 @@ class scrapRadius():
 
         print("Clicked login button.")
 
-        time.sleep(5)
+        time.sleep(10)
 
     def search_coordinates(self):
 
@@ -240,65 +240,6 @@ class scrapRadius():
 
 
         time.sleep(2)
-
-        try:
-            overflow_msg = WebDriverWait(self.driver, 5).until(
-                EC.visibility_of_element_located((By.CSS_SELECTOR, "div.gm-style-iw"))
-            )
-
-            overflow_msg_txt = overflow_msg.text.strip()
-            overflow_msg_txt = overflow_msg_txt.split('\n')
-            overflow_msg_txt = overflow_msg_txt[0] + '\t' + overflow_msg_txt[1]
-
-            if overflow_msg_txt not in self.overflow_msg:
-                self.overflow_msg.append(overflow_msg_txt)
-
-                logTxt = '\tLocation: \n' + '\t' + overflow_msg_txt + '\n'
-                print(logTxt)
-
-                minus_btn = WebDriverWait(self.driver, 200).until(
-                    EC.element_to_be_clickable((By.XPATH, "//*[@src='/assets/images/zo.png']"))
-                )
-                minus_btn.click()
-
-                radius_link = WebDriverWait(self.driver, 200).until(
-                    EC.visibility_of_element_located((By.CSS_SELECTOR, "li#radius-link"))
-                )
-                action_chain = ActionChains(self.driver)
-                action_chain.move_to_element(radius_link).move_by_offset(x, y).click().perform()
-                time.sleep(3)
-
-                favorite_btn = WebDriverWait(self.driver, 200).until(
-                    EC.element_to_be_clickable((By.CSS_SELECTOR, "i.fa.fa-building.text-white"))
-                )
-
-                favorite_btn.click()
-                time.sleep(2)
-
-                fullscreen_btn = WebDriverWait(self.driver, 200).until(
-                    EC.element_to_be_clickable((By.XPATH, "//div[@class='gm-style']/button"))
-                )
-
-                fullscreen_btn.click()
-                time.sleep(2)
-
-                self.marker_search('red')
-                self.marker_search('blue')
-
-                fullscreen_btn = WebDriverWait(self.driver, 200).until(
-                    EC.element_to_be_clickable((By.XPATH, "//div[@class='gm-style']/button"))
-                )
-
-                fullscreen_btn.click()
-
-                radius_link = WebDriverWait(self.driver, 200).until(
-                    EC.visibility_of_element_located((By.CSS_SELECTOR, "li#radius-link"))
-                )
-                radius_link.click()
-
-        except:
-            pass
-
 
     def marker_search(self, _type):
 
