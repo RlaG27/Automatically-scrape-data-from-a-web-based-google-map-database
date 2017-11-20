@@ -335,17 +335,23 @@ class scrapRadius():
                 return
 
             for marker in new_markers:
+
+                parent_of_marker = marker.find_element_by_xpath('..').text.strip()
+
+                if 'Current Supply' in parent_of_marker or 'New Supply' in parent_of_marker or 'Selected' in parent_of_marker:
+                    continue
+
                 action_chain = ActionChains(self.driver)
                 action_chain.move_to_element(marker).move_by_offset(0, -20).click(marker).perform()
                 time.sleep(2)
 
                 try:
                     WebDriverWait(self.driver, 5).until(
-                        EC.presence_of_element_located((By.CSS_SELECTOR, "div.gm-style-iw"))
+                        EC.visibility_of_any_elements_located((By.CSS_SELECTOR, "div.gm-style-iw"))
                     )
 
                     facility_panels = WebDriverWait(self.driver, 5).until(
-                        EC.presence_of_all_elements_located(
+                        EC.visibility_of_all_elements_located(
                             (By.CSS_SELECTOR, "div.value.editable.unselectable.ng-binding"))
                     )
 
@@ -354,11 +360,30 @@ class scrapRadius():
                     else:
                         type = 'New'
 
-                    name_of_facility = facility_panels[0].text.strip()
-                    address = facility_panels[1].text.strip() + '\n' + facility_panels[2].text.strip()
-                    city = facility_panels[3].text.strip()
-                    state = facility_panels[4].text.strip()
-                    zip = facility_panels[5].text.strip()
+                    try:
+                        name_of_facility = facility_panels[0].text.strip()
+                    except:
+                        name_of_facility = ''
+
+                    try:
+                        address = facility_panels[1].text.strip() + '\n' + facility_panels[2].text.strip()
+                    except:
+                        address = ''
+
+                    try:
+                        city = facility_panels[3].text.strip()
+                    except:
+                        city = ''
+
+                    try:
+                        state = facility_panels[4].text.strip()
+                    except:
+                        state = ''
+
+                    try:
+                        zip = facility_panels[5].text.strip()
+                    except:
+                        zip = ''
 
                     try:
                         climate_gross_sqft = self.driver.find_element_by_xpath(
