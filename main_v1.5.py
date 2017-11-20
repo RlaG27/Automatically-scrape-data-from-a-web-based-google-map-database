@@ -77,11 +77,13 @@ class scrapRadius():
             self.coordinates.append([self.sheet_in.row(i)[2].value, self.sheet_in.row(i)[3].value])
             print([self.sheet_in.row(i)[2].value, self.sheet_in.row(i)[3].value])
 
+        self.coordinates.reverse()
+
     def total_scraper(self):
+
+        self.max_threads = 2
         self.threads = []
-        self.max_threads = 3
-
-
+        self.drivers = []
 
         for i in range(self.max_threads):
             self.passLogin()
