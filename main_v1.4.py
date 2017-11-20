@@ -22,12 +22,14 @@ class scrapRadius():
         self.url = 'https://radius.unionrealtime.com/home'
         self.email = 'TuckerCapitalGroup@gmail.com'
         self.password = '2bstronger'
-        self.coordinate = []
+        self.coordinates = []
         self.overflow_msg = []
         self.marker_msg = []
         self.total_out = []
         self.total_cnt = 0
         self.total_coor_cnt = 0
+
+        ''' Create Output XLSX file '''
 
         header = [
             'Type', 'Name of facility', 'Address', 'City', 'State', 'Zip', 'Climate Gross Sqft', 'Climate Net Sqft',
@@ -38,12 +40,6 @@ class scrapRadius():
             '10x20 Climate', '10x20 Non-Climate'
         ]
 
-        '''
-        self.file_out = open('Result/output.csv', 'w', encoding='utf-8', newline='')
-        self.writer = csv.writer(self.file_out)
-        self.writer.writerow(header)
-        '''
-
         self.xfile = openpyxl.Workbook()
         self.sheet = self.xfile.worksheets[0]
 
@@ -53,6 +49,9 @@ class scrapRadius():
         self.output_name = 'Result/result.xlsx'
         self.xfile.save(self.output_name)
 
+        ''' Create Coordinates XLSX file '''
+
+        '''
         header_coor = ['Location', 'Population', 'X', 'Y']
         self.xfile_coor = openpyxl.Workbook()
         self.sheet_coor = self.xfile_coor.worksheets[0]
@@ -62,12 +61,23 @@ class scrapRadius():
 
         self.output_coor_name = 'Result/coordinates.xlsx'
         self.xfile_coor.save(self.output_coor_name)
+        '''
+
+        ''' Read Coordinates XLSX file '''
+
+        self.in_coor_name = 'Result/coordinates.xlsx'
+        self.xfile_in = xlrd.open_workbook(self.in_coor_name)
+
+        self.sheet_in = self.xfile_in.sheet_by_index(0)
+
+        for i in range(self.sheet_in.nrows):
+            if i==0:
+                continue
+
+            self.coordinates.append([self.sheet_in.row(i)[2], self.sheet_in.row(i)[3]])
+            print([self.sheet_in.row(i)[2], self.sheet_in.row(i)[3]])
 
     def passLogin(self):
-        #chrome_options = webdriver.ChromeOptions()
-        #chrome_options.add_argument("--incognito")
-        #self.driver = webdriver.Chrome(executable_path=os.getcwd() + '/WebDriver/chromedriver.exe',
-        #                              chrome_options=chrome_options)
 
         self.driver = webdriver.Chrome(executable_path=os.getcwd() + '/WebDriver/chromedriver.exe')
         self.driver.maximize_window()
@@ -176,41 +186,64 @@ class scrapRadius():
     def navigate(self):
 
         # 1920**1080
-        '''
-        for x_i in range(11, 95):
-            x = x_i * 10
-            for y_i in range(78):
-                y = y_i * 10
-
-                if [x, y] not in self.coordinate:
-                    self.coordinate.append([x, y])
-                    self.navigate_offset(x, y)
-        '''
-        for x_i in range(42, 47):
-            x = x_i * 20
-            for y_i in range(39):
-                y = y_i * 20
-
-                if [x, y] not in self.coordinate:
-                    self.coordinate.append([x, y])
-                    self.navigate_offset(x, y)
+        for coord in self.coordinates:
+            self.navigate_offset(coord[0], coord[1])
 
     def navigate_offset(self, x, y):
 
-        minus_btn = WebDriverWait(self.driver, 200).until(
+        self.driver.delete_all_cookies()
+
+        print(
+            '\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n')
+        minus_btn = WebDriverWait(self.driver, 20).until(
             EC.element_to_be_clickable((By.XPATH, "//*[@src='/assets/images/zo.png']"))
         )
         minus_btn.click()
 
-        print('Minus button is clicked.')
-
+        radius_link = WebDriverWait(self.driver, 20).until(
+            EC.visibility_of_element_located((By.CSS_SELECTOR, "li#radius-link"))
+        )
         action_chain = ActionChains(self.driver)
-        action_chain.move_to_element(self.radius_link).move_by_offset(x, y).perform()
+        action_chain.move_to_element(radius_link).move_by_offset(x, y).click().perform()
+
         print('Moved to : ({}, {}).'.format(x, y))
+
+        time.sleep(3)
+
+        favorite_btn = WebDriverWait(self.driver, 20).until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, "i.fa.fa-building.text-white"))
+        )
+
+        favorite_btn.click()
+        time.sleep(2)
+
+        fullscreen_btn = WebDriverWait(self.driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "//div[@class='gm-style']/button"))
+        )
+
+        fullscreen_btn.click()
+        time.sleep(2)
+
+        self.marker_search('red')
+        self.marker_search('blue')
+
+        fullscreen_btn = WebDriverWait(self.driver, 20).until(
+            EC.element_to_be_clickable((By.XPATH, "//div[@class='gm-style']/button"))
+        )
+
+        fullscreen_btn.click()
+
+        radius_link = WebDriverWait(self.driver, 200).until(
+            EC.visibility_of_element_located((By.CSS_SELECTOR, "li#radius-link"))
+        )
+        radius_link.click()
+
+
+        time.sleep(2)
 
         try:
             overflow_msg = WebDriverWait(self.driver, 5).until(
-                EC.visibility_of_element_located((By.CLASS_NAME, "gm-style-iw"))
+                EC.visibility_of_element_located((By.CSS_SELECTOR, "div.gm-style-iw"))
             )
 
             overflow_msg_txt = overflow_msg.text.strip()
@@ -219,11 +252,53 @@ class scrapRadius():
 
             if overflow_msg_txt not in self.overflow_msg:
                 self.overflow_msg.append(overflow_msg_txt)
-                self.coordinate.append([x,y])
-                print([x, y])
+
+                logTxt = '\tLocation: \n' + '\t' + overflow_msg_txt + '\n'
+                print(logTxt)
+
+                minus_btn = WebDriverWait(self.driver, 200).until(
+                    EC.element_to_be_clickable((By.XPATH, "//*[@src='/assets/images/zo.png']"))
+                )
+                minus_btn.click()
+
+                radius_link = WebDriverWait(self.driver, 200).until(
+                    EC.visibility_of_element_located((By.CSS_SELECTOR, "li#radius-link"))
+                )
+                action_chain = ActionChains(self.driver)
+                action_chain.move_to_element(radius_link).move_by_offset(x, y).click().perform()
+                time.sleep(3)
+
+                favorite_btn = WebDriverWait(self.driver, 200).until(
+                    EC.element_to_be_clickable((By.CSS_SELECTOR, "i.fa.fa-building.text-white"))
+                )
+
+                favorite_btn.click()
+                time.sleep(2)
+
+                fullscreen_btn = WebDriverWait(self.driver, 200).until(
+                    EC.element_to_be_clickable((By.XPATH, "//div[@class='gm-style']/button"))
+                )
+
+                fullscreen_btn.click()
+                time.sleep(2)
+
+                self.marker_search('red')
+                self.marker_search('blue')
+
+                fullscreen_btn = WebDriverWait(self.driver, 200).until(
+                    EC.element_to_be_clickable((By.XPATH, "//div[@class='gm-style']/button"))
+                )
+
+                fullscreen_btn.click()
+
+                radius_link = WebDriverWait(self.driver, 200).until(
+                    EC.visibility_of_element_located((By.CSS_SELECTOR, "li#radius-link"))
+                )
+                radius_link.click()
 
         except:
             pass
+
 
     def marker_search(self, _type):
 
@@ -455,4 +530,4 @@ class scrapRadius():
 if __name__ == '__main__':
     app = scrapRadius()
     app.passLogin()
-    app.search_coordinates()
+    app.navigate()
