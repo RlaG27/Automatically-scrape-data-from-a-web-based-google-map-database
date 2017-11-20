@@ -81,12 +81,14 @@ class scrapRadius():
 
     def total_scraper(self):
 
-        self.max_threads = 2
+        self.max_threads = 1
         self.threads = []
         self.drivers = []
 
         for i in range(self.max_threads):
             self.passLogin()
+
+        self.drivers.reverse()
 
         while self.threads or self.coordinates:
             for thread in self.threads:
@@ -108,6 +110,12 @@ class scrapRadius():
 
     def passLogin(self):
 
+        '''
+        chrome_options = webdriver.ChromeOptions()
+        chrome_options.add_argument("--incognito")
+        driver = webdriver.Chrome(executable_path=os.getcwd() + '/WebDriver/chromedriver.exe',
+                                       chrome_options=chrome_options)
+        '''
         driver = webdriver.Chrome(executable_path=os.getcwd() + '/WebDriver/chromedriver.exe')
         driver.maximize_window()
         driver.get(self.url)
@@ -165,7 +173,7 @@ class scrapRadius():
 
     def navigate_offset(self, driver, x, y):
 
-        driver.delete_all_cookies()
+        #driver.delete_all_cookies()
 
         print(
             '\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n')
@@ -173,6 +181,8 @@ class scrapRadius():
             EC.element_to_be_clickable((By.XPATH, "//*[@src='/assets/images/zo.png']"))
         )
         minus_btn.click()
+
+        time.sleep(1)
 
         radius_link = WebDriverWait(driver, 50).until(
             EC.visibility_of_element_located((By.CSS_SELECTOR, "li#radius-link"))
@@ -182,20 +192,20 @@ class scrapRadius():
 
         print('Moved to : ({}, {}).'.format(x, y))
 
-        time.sleep(3)
+        time.sleep(2)
 
         favorite_btn = WebDriverWait(driver, 50).until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, "i.fa.fa-building.text-white"))
         )
 
         favorite_btn.click()
-        time.sleep(2)
 
         fullscreen_btn = WebDriverWait(driver, 50).until(
             EC.element_to_be_clickable((By.XPATH, "//div[@class='gm-style']/button"))
         )
 
         fullscreen_btn.click()
+
         time.sleep(2)
 
         self.marker_search(driver, 'red')
@@ -212,263 +222,259 @@ class scrapRadius():
         )
         radius_link.click()
 
-
-        time.sleep(2)
-
     def marker_search(self, driver, _type):
 
         try:
-            strange_markers =  WebDriverWait(driver, 10).until(
-                EC.presence_of_all_elements_located(
-                    (By.XPATH, "//*[@src='//cdn.rawgit.com/mahnunchik/markerclustererplus/master/images/m3.png']"))
+            strange_markers =  WebDriverWait(driver, 5).until(
+                EC.presence_of_element_located(
+                    (By.XPATH, "//img[@src='//cdn.rawgit.com/mahnunchik/markerclustererplus/master/images/m3.png']"))
             )
 
-            if len(strange_markers) >= 1:
-                return
+            return
 
         except:
             pass
 
         try:
-            strange_markers =  WebDriverWait(driver, 10).until(
-                EC.presence_of_all_elements_located(
-                    (By.XPATH, "//*[@src='//cdn.rawgit.com/mahnunchik/markerclustererplus/master/images/m1.png']"))
+            strange_markers =  WebDriverWait(driver, 5).until(
+                EC.presence_of_element_located(
+                    (By.XPATH, "//img[@src='//cdn.rawgit.com/mahnunchik/markerclustererplus/master/images/m1.png']"))
             )
 
-            if len(strange_markers) >= 1:
-                return
+            return
 
         except:
             pass
 
-        new_markers = WebDriverWait(driver, 10).until(
-            EC.presence_of_all_elements_located((By.XPATH, "//*[@src='/assets/images/dot_{}.png']".format(_type)))
-        )
+        try:
+            new_markers = WebDriverWait(driver, 10).until(
+                EC.presence_of_all_elements_located((By.XPATH, "//img[@src='/assets/images/dot_{}.png']".format(_type)))
+            )
 
-        if len(new_markers) is 1:
-            return
+            if len(new_markers) is 1:
+                return
 
-        for marker in new_markers:
-
-            try:
-                parent_of_marker = marker.find_element_by_xpath('..').text.strip()
-
-                if 'Current Supply' in parent_of_marker or 'New Supply' in parent_of_marker or 'Selected' in parent_of_marker:
-                    continue
-
-                action_chain = ActionChains(driver)
-                action_chain.move_to_element(marker).move_by_offset(0, -20).click(marker).perform()
-                time.sleep(3)
-
-
-                WebDriverWait(driver, 20).until(
-                    EC.presence_of_all_elements_located(
-                        (By.CSS_SELECTOR, "div.iw"))
-                )
-
-                if _type is 'red':
-                    type = 'Current'
-                else:
-                    type = 'New'
+            for marker in new_markers:
 
                 try:
-                    #name_of_facility = facility_panels[0].text.strip()
-                    name_of_facility = driver.find_element_by_xpath(
-                        "//div[@class='iw']/h4").text.strip()
-                except:
-                    name_of_facility = ''
+                    parent_of_marker = marker.find_element_by_xpath('..').text.strip()
 
-                try:
-                    #address = facility_panels[1].text.strip() + '\n' + facility_panels[2].text.strip()
-                    address_city_state_zip = driver.find_element_by_xpath(
-                        "//div[@class='iw']/p").text.strip().split('\n')
-                    try:
-                        address = address_city_state_zip[0]
-                    except:
-                        address = ''
+                    if 'Current Supply' in parent_of_marker or 'New Supply' in parent_of_marker or 'Selected' in parent_of_marker:
+                        continue
 
-                    try:
-                        city = address_city_state_zip[1]
-                    except:
-                        city = ''
+                    action_chain = ActionChains(driver)
+                    action_chain.move_to_element(marker).move_by_offset(0, -20).click(marker).perform()
+
+                    WebDriverWait(driver, 5).until(
+                        EC.visibility_of_element_located(
+                            (By.CSS_SELECTOR, "div.iw"))
+                    )
+
+                    if _type is 'red':
+                        type = 'Current'
+                    else:
+                        type = 'New'
 
                     try:
-                        state = address_city_state_zip[2]
+                        #name_of_facility = facility_panels[0].text.strip()
+                        name_of_facility = driver.find_element_by_xpath(
+                            "//div[@class='iw']/h4").text.strip()
                     except:
-                        state = ''
+                        name_of_facility = ''
 
                     try:
-                        zip = address_city_state_zip[3]
+                        #address = facility_panels[1].text.strip() + '\n' + facility_panels[2].text.strip()
+                        address_city_state_zip = driver.find_element_by_xpath(
+                            "//div[@class='iw']/p").text.strip().split('\n')
+                        try:
+                            address = address_city_state_zip[0]
+                        except:
+                            address = ''
+
+                        try:
+                            city = address_city_state_zip[1]
+                        except:
+                            city = ''
+
+                        try:
+                            state = address_city_state_zip[2]
+                        except:
+                            state = ''
+
+                        try:
+                            zip = address_city_state_zip[3]
+                        except:
+                            zip = ''
+
+
+
                     except:
-                        zip = ''
+                        pass
 
+                    try:
+                        climate_gross_sqft = driver.find_element_by_xpath(
+                            "//div[@class='iw']/table[1]/tbody/tr[1]/td[2]").text.strip()
+                    except:
+                        climate_gross_sqft = ''
 
+                    try:
+                        climate_net_sqft = driver.find_element_by_xpath(
+                            "//div[@class='iw']/table[1]/tbody/tr[1]/td[3]").text.strip()
+                    except:
+                        climate_net_sqft = ''
+
+                    try:
+                        non_climate_gross_sqft = driver.find_element_by_xpath(
+                            "//div[@class='iw']/table[1]/tbody/tr[2]/td[2]").text.strip()
+                    except:
+                        non_climate_gross_sqft = ''
+
+                    try:
+                        non_climate_net_sqft = driver.find_element_by_xpath(
+                            "//div[@class='iw']/table[1]/tbody/tr[2]/td[3]").text.strip()
+                    except:
+                        non_climate_net_sqft = ''
+
+                    try:
+                        gross_sqft = driver.find_element_by_xpath(
+                            "//div[@class='iw']/table[1]/tbody/tr[3]/td[2]").text.strip()
+                    except:
+                        gross_sqft = ''
+
+                    try:
+                        net_sqft = driver.find_element_by_xpath(
+                            "//div[@class='iw']/table[1]/tbody/tr[3]/td[3]").text.strip()
+                    except:
+                        net_sqft = ''
+
+                    try:
+                        climate_5_5 = driver.find_element_by_xpath(
+                            "//div[@class='iw']/table[2]/tbody/tr[1]/td[2]").text.strip()
+                    except:
+                        climate_5_5 = ''
+
+                    try:
+                        non_climate_5_5 = driver.find_element_by_xpath(
+                            "//div[@class='iw']/table[2]/tbody/tr[1]/td[3]").text.strip()
+                    except:
+                        non_climate_5_5 = ''
+
+                    try:
+                        climate_5_10 = driver.find_element_by_xpath(
+                            "//div[@class='iw']/table[2]/tbody/tr[2]/td[2]").text.strip()
+                    except:
+                        climate_5_10 = ''
+
+                    try:
+                        non_climate_5_10 = driver.find_element_by_xpath(
+                            "//div[@class='iw']/table[2]/tbody/tr[2]/td[3]").text.strip()
+                    except:
+                        non_climate_5_10 = ''
+
+                    try:
+                        climate_10_10 = driver.find_element_by_xpath(
+                            "//div[@class='iw']/table[2]/tbody/tr[3]/td[2]").text.strip()
+                    except:
+                        climate_10_10 = ''
+
+                    try:
+                        non_climate_10_10 = driver.find_element_by_xpath(
+                            "//div[@class='iw']/table[2]/tbody/tr[3]/td[3]").text.strip()
+                    except:
+                        non_climate_10_10 = ''
+
+                    try:
+                        climate_10_15 = driver.find_element_by_xpath(
+                            "//div[@class='iw']/table[2]/tbody/tr[4]/td[2]").text.strip()
+                    except:
+                        climate_10_15 = ''
+
+                    try:
+                        non_climate_10_15 = driver.find_element_by_xpath(
+                            "//div[@class='iw']/table[2]/tbody/tr[4]/td[3]").text.strip()
+                    except:
+                        non_climate_10_15 = ''
+
+                    try:
+                        climate_10_20 = driver.find_element_by_xpath(
+                            "//div[@class='iw']/table[2]/tbody/tr[5]/td[2]").text.strip()
+                    except:
+                        climate_10_20 = ''
+
+                    try:
+                        non_climate_10_20 = driver.find_element_by_xpath(
+                            "//div[@class='iw']/table[2]/tbody/tr[5]/td[3]").text.strip()
+                    except:
+                        non_climate_10_20 = ''
+
+                    close_btn = driver.find_element_by_xpath(
+                        "//*[@id='page-wrapper']/div[2]/div[1]/div/div[1]/div/div/div[1]/div/div/div/div/div[1]/div[4]/div[4]/div[2]/div[3]")
+                    close_btn.click()
+
+                    if [
+                        type, name_of_facility, address, city, state, zip, climate_gross_sqft, climate_net_sqft,
+                        non_climate_gross_sqft, non_climate_net_sqft, gross_sqft, net_sqft, climate_5_5,
+                        non_climate_5_5, climate_5_10, non_climate_5_10, climate_10_10, non_climate_10_10,
+                        climate_10_15, non_climate_10_15, climate_10_20, non_climate_10_20
+                    ] not in self.total_out:
+                        self.total_out.append(
+                            [
+                                type, name_of_facility, address, city, state, zip, climate_gross_sqft,
+                                climate_net_sqft,
+                                non_climate_gross_sqft, non_climate_net_sqft, gross_sqft, net_sqft, climate_5_5,
+                                non_climate_5_5, climate_5_10, non_climate_5_10, climate_10_10,
+                                non_climate_10_10,
+                                climate_10_15, non_climate_10_15, climate_10_20, non_climate_10_20
+                            ]
+                        )
+
+                        self.total_cnt += 1
+
+                        '''
+                        self.writer.writerow(
+                            [
+                                type, name_of_facility, address, city, state, zip, climate_gross_sqft,
+                                climate_net_sqft,
+                                non_climate_gross_sqft, non_climate_net_sqft, gross_sqft, net_sqft, climate_5_5,
+                                non_climate_5_5, climate_5_10, non_climate_5_10, climate_10_10,
+                                non_climate_10_10,
+                                climate_10_15, non_climate_10_15, climate_10_20, non_climate_10_20
+                            ]
+                        )
+                        '''
+
+                        for i, elm in enumerate([
+                            type, name_of_facility, address, city, state, zip, climate_gross_sqft,
+                            climate_net_sqft,
+                            non_climate_gross_sqft, non_climate_net_sqft, gross_sqft, net_sqft, climate_5_5,
+                            non_climate_5_5, climate_5_10, non_climate_5_10, climate_10_10,
+                            non_climate_10_10,
+                            climate_10_15, non_climate_10_15, climate_10_20, non_climate_10_20
+                        ]):
+                            self.sheet.cell(row=self.total_cnt + 1, column=i + 1).value = elm
+
+                        self.xfile.save(self.output_name)
+
+                        logTxt = '\t{0}\n\t{1}\n\t{2}\n\t{3}\n\t{4}\n\t{5}\n\t{6}\n\t{7}\n\t{8}\n\t{9}\n\t{10}\n' \
+                                 '\t{11}\n\t{12}\n\t{13}\n\t{14}\n\t{15}\n\t{16}\n\t{17}\n\t{18}\n\t{19}\n\t{20}\n' \
+                                 '\t{21}\n'.format(
+                            type, name_of_facility, address, city, state, zip, climate_gross_sqft,
+                            climate_net_sqft,
+                            non_climate_gross_sqft, non_climate_net_sqft, gross_sqft, net_sqft, climate_5_5,
+                            non_climate_5_5, climate_5_10, non_climate_5_10, climate_10_10,
+                            non_climate_10_10,
+                            climate_10_15, non_climate_10_15, climate_10_20, non_climate_10_20
+                        )
+
+                        print(logTxt)
+
+                        logTxt = '\tTotal Count: {}\n'.format(self.total_cnt)
+                        print(logTxt)
 
                 except:
                     pass
-
-                try:
-                    climate_gross_sqft = driver.find_element_by_xpath(
-                        "//div[@class='iw']/table[1]/tbody/tr[1]/td[2]").text.strip()
-                except:
-                    climate_gross_sqft = ''
-
-                try:
-                    climate_net_sqft = driver.find_element_by_xpath(
-                        "//div[@class='iw']/table[1]/tbody/tr[1]/td[3]").text.strip()
-                except:
-                    climate_net_sqft = ''
-
-                try:
-                    non_climate_gross_sqft = driver.find_element_by_xpath(
-                        "//div[@class='iw']/table[1]/tbody/tr[2]/td[2]").text.strip()
-                except:
-                    non_climate_gross_sqft = ''
-
-                try:
-                    non_climate_net_sqft = driver.find_element_by_xpath(
-                        "//div[@class='iw']/table[1]/tbody/tr[2]/td[3]").text.strip()
-                except:
-                    non_climate_net_sqft = ''
-
-                try:
-                    gross_sqft = driver.find_element_by_xpath(
-                        "//div[@class='iw']/table[1]/tbody/tr[3]/td[2]").text.strip()
-                except:
-                    gross_sqft = ''
-
-                try:
-                    net_sqft = driver.find_element_by_xpath(
-                        "//div[@class='iw']/table[1]/tbody/tr[3]/td[3]").text.strip()
-                except:
-                    net_sqft = ''
-
-                try:
-                    climate_5_5 = driver.find_element_by_xpath(
-                        "//div[@class='iw']/table[2]/tbody/tr[1]/td[2]").text.strip()
-                except:
-                    climate_5_5 = ''
-
-                try:
-                    non_climate_5_5 = driver.find_element_by_xpath(
-                        "//div[@class='iw']/table[2]/tbody/tr[1]/td[3]").text.strip()
-                except:
-                    non_climate_5_5 = ''
-
-                try:
-                    climate_5_10 = driver.find_element_by_xpath(
-                        "//div[@class='iw']/table[2]/tbody/tr[2]/td[2]").text.strip()
-                except:
-                    climate_5_10 = ''
-
-                try:
-                    non_climate_5_10 = driver.find_element_by_xpath(
-                        "//div[@class='iw']/table[2]/tbody/tr[2]/td[3]").text.strip()
-                except:
-                    non_climate_5_10 = ''
-
-                try:
-                    climate_10_10 = driver.find_element_by_xpath(
-                        "//div[@class='iw']/table[2]/tbody/tr[3]/td[2]").text.strip()
-                except:
-                    climate_10_10 = ''
-
-                try:
-                    non_climate_10_10 = driver.find_element_by_xpath(
-                        "//div[@class='iw']/table[2]/tbody/tr[3]/td[3]").text.strip()
-                except:
-                    non_climate_10_10 = ''
-
-                try:
-                    climate_10_15 = driver.find_element_by_xpath(
-                        "//div[@class='iw']/table[2]/tbody/tr[4]/td[2]").text.strip()
-                except:
-                    climate_10_15 = ''
-
-                try:
-                    non_climate_10_15 = driver.find_element_by_xpath(
-                        "//div[@class='iw']/table[2]/tbody/tr[4]/td[3]").text.strip()
-                except:
-                    non_climate_10_15 = ''
-
-                try:
-                    climate_10_20 = driver.find_element_by_xpath(
-                        "//div[@class='iw']/table[2]/tbody/tr[5]/td[2]").text.strip()
-                except:
-                    climate_10_20 = ''
-
-                try:
-                    non_climate_10_20 = driver.find_element_by_xpath(
-                        "//div[@class='iw']/table[2]/tbody/tr[5]/td[3]").text.strip()
-                except:
-                    non_climate_10_20 = ''
-
-                close_btn = driver.find_element_by_xpath(
-                    "//*[@id='page-wrapper']/div[2]/div[1]/div/div[1]/div/div/div[1]/div/div/div/div/div[1]/div[4]/div[4]/div[2]/div[3]")
-                close_btn.click()
-
-                if [
-                    type, name_of_facility, address, city, state, zip, climate_gross_sqft, climate_net_sqft,
-                    non_climate_gross_sqft, non_climate_net_sqft, gross_sqft, net_sqft, climate_5_5,
-                    non_climate_5_5, climate_5_10, non_climate_5_10, climate_10_10, non_climate_10_10,
-                    climate_10_15, non_climate_10_15, climate_10_20, non_climate_10_20
-                ] not in self.total_out:
-                    self.total_out.append(
-                        [
-                            type, name_of_facility, address, city, state, zip, climate_gross_sqft,
-                            climate_net_sqft,
-                            non_climate_gross_sqft, non_climate_net_sqft, gross_sqft, net_sqft, climate_5_5,
-                            non_climate_5_5, climate_5_10, non_climate_5_10, climate_10_10,
-                            non_climate_10_10,
-                            climate_10_15, non_climate_10_15, climate_10_20, non_climate_10_20
-                        ]
-                    )
-
-                    self.total_cnt += 1
-
-                    '''
-                    self.writer.writerow(
-                        [
-                            type, name_of_facility, address, city, state, zip, climate_gross_sqft,
-                            climate_net_sqft,
-                            non_climate_gross_sqft, non_climate_net_sqft, gross_sqft, net_sqft, climate_5_5,
-                            non_climate_5_5, climate_5_10, non_climate_5_10, climate_10_10,
-                            non_climate_10_10,
-                            climate_10_15, non_climate_10_15, climate_10_20, non_climate_10_20
-                        ]
-                    )
-                    '''
-
-                    for i, elm in enumerate([
-                        type, name_of_facility, address, city, state, zip, climate_gross_sqft,
-                        climate_net_sqft,
-                        non_climate_gross_sqft, non_climate_net_sqft, gross_sqft, net_sqft, climate_5_5,
-                        non_climate_5_5, climate_5_10, non_climate_5_10, climate_10_10,
-                        non_climate_10_10,
-                        climate_10_15, non_climate_10_15, climate_10_20, non_climate_10_20
-                    ]):
-                        self.sheet.cell(row=self.total_cnt + 1, column=i + 1).value = elm
-
-                    self.xfile.save(self.output_name)
-
-                    logTxt = '\t{0}\n\t{1}\n\t{2}\n\t{3}\n\t{4}\n\t{5}\n\t{6}\n\t{7}\n\t{8}\n\t{9}\n\t{10}\n' \
-                             '\t{11}\n\t{12}\n\t{13}\n\t{14}\n\t{15}\n\t{16}\n\t{17}\n\t{18}\n\t{19}\n\t{20}\n' \
-                             '\t{21}\n'.format(
-                        type, name_of_facility, address, city, state, zip, climate_gross_sqft,
-                        climate_net_sqft,
-                        non_climate_gross_sqft, non_climate_net_sqft, gross_sqft, net_sqft, climate_5_5,
-                        non_climate_5_5, climate_5_10, non_climate_5_10, climate_10_10,
-                        non_climate_10_10,
-                        climate_10_15, non_climate_10_15, climate_10_20, non_climate_10_20
-                    )
-
-                    print(logTxt)
-
-                    logTxt = '\tTotal Count: {}\n'.format(self.total_cnt)
-                    print(logTxt)
-
-            except:
-                pass
+        except:
+            pass
 
 
 
