@@ -1,0 +1,255 @@
+Type,Name of facility,Address,City,State,Zip,Climate Gross Sqft,Climate Net SqftNon-Climate Gross Sqft,Non-Climate Net Sqft,Gross Sqft,Net Sqft,5x5 Climate,5x5 Non-Climate,5x10 Climate,5x10 Non-Climate,10x10 Climate,10x10 Non-Climate,10x15 Climate,10x15 Non-Climate,10x20 Climate,10x20 Non-Climate
+Current,,"
+",,,,"50,250","36,180","3,425","3,117","53,674","39,296",,,,,,,,,,
+Current,Rancho Mini-Storage,"1661 Tonopah Hwy
+",Las Vegas,NV,89106,"50,250","36,180","3,425","3,117","53,674","39,296",,,,,,,,,,
+Current,Rancho Mini-Storage,"1661 Tonopah Hwy
+",Las Vegas,NV,89106,-,-,"56,903","51,781",,,,,,$63,-,$90,-,$110,,
+Current,Rancho Mini-Storage,"1661 Tonopah Hwy
+",Las Vegas,NV,89106,-,-,"20,258","18,435","20,258","18,435",-,$40,-,$63,-,$90,-,$110,,
+Current,Affordable Self Storage,"3333 Meade Ave
+",Las Vegas,NV,89102,-,-,"20,258","18,435","20,258","18,435",-,$40,-,$63,-,$90,-,$110,,
+Current,Affordable Self Storage,"3333 Meade Ave
+",Las Vegas,NV,89102,,,,,,,,,,,,,,,,
+Current,Affordable Self Storage,"3333 Meade Ave
+",Las Vegas,NV,89102,"94,370","67,946",-,-,"94,370","67,946",,,,,,,,,,
+Current,U-Haul Moving & Storage of Baldwin Hills,"5021-5051 Rodeo Rd
+",Los Angeles,CA,90016,"94,370","67,946",-,-,"94,370","67,946",,,,,,,,,,
+Current,U-Haul Moving & Storage of Baldwin Hills,"5021-5051 Rodeo Rd
+",Los Angeles,CA,90016,-,-,"56,578","51,486","56,578","51,486",,,,,,,,,,
+Current,U-Haul Moving & Storage of Baldwin Hills,"5021-5051 Rodeo Rd
+",Los Angeles,CA,90016,-,-,"45,899","41,768","45,899","41,768",-,$105,-,$145,-,$240,-,-,,
+Current,Extra Space Storage,"290 W Casitas Ave
+",Los Angeles,CA,90039,-,-,"45,899","41,768","45,899","41,768",-,$69,-,$115,-,$159,-,-,,
+Current,Extra Space Storage,"290 W Casitas Ave
+",Los Angeles,CA,90039,-,-,"356,130","324,079","356,130","324,079",-,$69,-,$115,-,$159,-,-,,
+Current,Extra Space Storage,"290 W Casitas Ave
+",Los Angeles,CA,90039,-,-,"356,130","324,079","356,130","324,079",-,$69,-,$115,-,$159,,-,,
+Current,Public Storage,"1712 Effie St
+",Los Angeles,CA,90026,"180,336","129,842",-,-,"180,336","129,842",$101,-,$143,-,$239,-,$324,-,,
+Current,Public Storage,"1712 Effie St
+",Los Angeles,CA,90026,"99,936","71,954",-,-,"99,936","71,954",,,,,,,,,,
+Current,Storage Etc. Los Feliz,"2870 Los Feliz Pl
+",Los Angeles,CA,90039,"99,936","71,954",-,-,"99,936","71,954",,,,,,,,,,
+Current,Storage Etc. Los Feliz,"2870 Los Feliz Pl
+",Los Angeles,CA,90039,"99,936","71,954",-,-,"99,936",,-,-,-,-,-,$200,-,-,,
+Current,Storage Etc. Los Feliz,"2870 Los Feliz Pl
+",Los Angeles,CA,90039,"37,761","27,188",-,-,"37,761","27,188",-,-,-,-,-,$200,-,$276,,
+Current,Storage Etc. Los Feliz,"2870 Los Feliz Pl
+",Los Angeles,CA,90039,"50,882","36,635",-,-,"50,882","36,635",-,$93,-,$128,-,$190,-,,,
+Current,Public Storage,"4400 W Ramona Blvd
+",Monterey Park,CA,91754,"88,555","63,759",-,-,"88,555","13,441",,,,,,,,,,
+Current,Public Storage,"4400 W Ramona Blvd
+",Monterey Park,CA,91754,-,-,"14,771","13,441","14,771","13,441",,,,,,,,,,
+Current,Public Storage,"5500 San Fernando Rd
+",Glendale,CA,91203,-,-,"14,771","13,441","14,771","13,441",,,,,,,,,,
+Current,Public Storage,"5500 San Fernando Rd
+",Glendale,CA,91203,-,-,"15,406","14,019","76,828","58,243",-,$96,-,$132,-,$191,-,$261,,
+Current,A-1 Self Storage,"2300 Poplar Blvd
+",Alhambra,CA,91801,"61,422","44,224","15,406","14,019","76,828","58,243",-,$96,-,$132,-,$191,-,$261,,
+Current,U-Haul Moving & Storage of South Central,"11020 S Vermont Ave
+",Los Angeles,CA,90044,"97,125",,-,-,"97,125","69,930",$72,$76,$115,$149,$182,$195,$264,$270,,
+Current,U-Haul Moving & Storage of South Central,"11020 S Vermont Ave
+",Los Angeles,CA,90044,"97,125","69,930",-,-,"97,125","69,930",$72,$76,$115,$149,$182,$195,$264,$270,,
+Current,Nova Storage,"7301-7399 Suva St
+",Downey,CA,90240,"97,125","69,930",-,-,"97,125","69,930",$72,$76,$115,$149,$182,$195,$264,$270,,
+Current,Nova Storage,"7301-7399 Suva St
+",Downey,CA,90240,"97,125","69,930",-,-,"97,125","69,930",$72,$76,$115,,,,,,,
+Current,Nova Storage,"7301-7399 Suva St
+",Downey,CA,90240,-,-,"78,977","71,869","78,977","71,869",,,,,-,$190,-,$200,,
+Current,Nova Storage,"7301-7399 Suva St
+",Downey,CA,90240,"89,566","64,487","6,881","6,261","96,446","70,749",-,$100,-,$156,-,$190,-,$200,,
+Current,Public Storage,"1546 W El Segundo Blvd
+",Gardena,CA,90249,,,,"7,426","8,161","7,426",-,$72,-,$125,-,-,-,-,,
+Current,Public Storage,"1546 W El Segundo Blvd
+",Gardena,CA,90249,-,-,"8,161","7,426","8,161","7,426",-,$72,-,$125,-,-,-,-,,
+Current,Public Storage,"1546 W El Segundo Blvd
+",Gardena,CA,90249,"32,453","23,366",-,-,"32,453","23,366",,,,,,,,,,
+Current,Public Storage,"10833 S Prairie Ave
+",Inglewood,CA,90303,-,-,"15,247","13,875","15,247","13,875",-,$89,-,$136,-,$230,-,-,,
+Current,Public Storage,"10833 S Prairie Ave
+",Hawthorne,CA,90250,-,-,"15,247","13,875","15,247","13,875",-,$89,-,$136,-,$230,-,-,,
+Current,Extra Space Storage,"12714 S La Cienega Blvd
+",Hawthorne,CA,90250,"108,101","77,832",-,-,"108,101","77,832",-,$93,-,$125,-,$192,-,$247,,
+Current,StorAmerica Self Storage,"12024 Center St
+",South Gate,CA,90280,"108,101","77,832",-,-,"108,101","77,832",-,$93,-,$125,-,$192,-,$247,,
+Current,StorAmerica Self Storage,"12024 Center St
+",South Gate,CA,90280,"108,101","77,832",-,-,"108,101","77,832",-,,-,$121,-,$175,-,$225,,
+Current,StorAmerica Self Storage,"12024 Center St
+",South Gate,CA,90280,"58,957",-,"83,200","75,712","83,200","75,712",-,$74,-,$111,-,$151,-,$194,,
+Current,StorAmerica Self Storage,"12024 Center St
+",South Gate,CA,90280,-,-,"83,200","75,712","83,200","75,712",-,$74,-,$111,-,$151,-,$194,,
+Current,StorAmerica Self Storage,"2671 Fletcher Dr
+",Los Angeles,CA,90039,-,-,"83,200","75,712","83,200","75,712",-,$74,-,$111,-,$151,-,$194,,
+Current,U-Haul Moving & Storage at Fletcher Dr,"2671 Fletcher Dr
+",Los Angeles,CA,90039,-,-,"136,544","124,255","136,544","124,255",-,-,-,-,-,-,-,-,,
+Current,U-Haul Moving & Storage at Fletcher Dr,"2671 Fletcher Dr
+",Los Angeles,CA,90028,,,,,,,-,$135,-,$166,-,$281,-,$339,,
+Current,SoCal Self Storage,"5900B Hollywood Blvd
+",Los Angeles,CA,90028,,,,,,,-,$135,-,$166,-,$281,-,$339,,
+Current,SoCal Self Storage,"5900B Hollywood Blvd
+",Los Angeles,CA,90032,,,,,,,,,-,$166,-,$281,-,-,,
+Current,Public Storage,"4889 Alhambra Ave
+",Los Angeles,CA,90032,,,,,"78,654","71,575",$110,$110,-,$140,-,,,,,
+Current,Public Storage,"4889 Alhambra Ave
+",Los Angeles,CA,90032,-,-,"63,109","57,429","63,109","57,429",,,,,,,,,,
+Current,Public Storage,"4889 Alhambra Ave
+",Los Angeles,CA,90057,-,-,"63,109","57,429","63,109","57,429",,,,,,,,,,
+Current,Public Storage,"2500 W 6th St
+",Los Angeles,CA,90057,-,"37,342",-,-,"51,864","37,342",,,,,,,,,,
+Current,Public Storage,"2500 W 6th St
+",Los Angeles,CA,90057,"51,864","37,342",-,-,"51,864","37,342",,,,,,,,,,
+Current,Public Storage,"2500 W 6th St
+",Los Angeles,CA,90013,"51,864","37,342",-,-,"51,864","37,342",,,,,,,,,,
+Current,Public Storage,"300 Avery St
+",Los Angeles,CA,90013,"51,864","37,342",-,-,"51,864","37,342",,,,,,,,,,
+Current,Public Storage,"300 Avery St
+",Los Angeles,CA,90013,"91,485","65,869",-,-,"91,485","65,869",$96,$87,$123,$122,$179,$188,$245,$251,,
+Current,Public Storage,"300 Avery St
+",Los Angeles,CA,90013,,"59,260",-,-,"82,305","59,260",-,$90,-,$135,-,$206,-,$267,,
+Current,Public Storage,"300 Avery St
+",Los Angeles,CA,90013,"82,305","59,260",-,-,"82,305","59,260",,$89,-,$122,-,$172,-,$246,,
+Current,StorQuest Self Storage,"2222 N Figueroa St
+",Los Angeles,CA,90065,-,-,"73,011","66,440","73,011","66,440",-,$89,-,$122,-,$172,-,$246,,
+Current,StorQuest Self Storage,"2222 N Figueroa St
+",Los Angeles,CA,90065,-,-,"56,578","51,486","56,578","51,486",,,,,,,,,,
+Current,Life Storage,"801 E Commercial St
+",Los Angeles,CA,90012,-,-,"56,578","51,486","56,578","51,486",,,,,,,,,,
+Current,Life Storage,"801 E Commercial St
+",Los Angeles,CA,90012,,"98,563","2,788","2,537","139,681","101,100",,,,,,,,,,
+Current,Life Storage,"801 E Commercial St
+",Los Angeles,CA,90012,,,,,,,,,,,,,,,,
+Current,Extra Space Storage,"2000 W Mission Rd
+",Alhambra,CA,91803,,,,,,,,,,,,,,,,
+Current,Extra Space Storage,"2000 W Mission Rd
+",Alhambra,CA,91803,"21,510","15,487",-,-,"21,510","15,487",,,,,,,,,,
+Current,Saf Keep Storage,"4996 Melrose Ave
+",Los Angeles,CA,90029,"21,510","15,487",-,-,"21,510","15,487",,,,,,,,,,
+Current,Saf Keep Storage,"4996 Melrose Ave
+",Los Angeles,CA,90029,,,,,,,-,$104,-,$138,-,$222,-,$299,,
+Current,Saf Keep Storage,"4996 Melrose Ave
+",Los Angeles,CA,90029,-,-,"56,578","51,486","56,578","51,486",,,,,,,,,,
+Current,Public Storage,"3810 N Eagle Rock Blvd
+",Los Angeles,CA,90065,-,-,"56,578","51,486","56,578","51,486",,,,,,,,,,
+Current,Public Storage,"3810 N Eagle Rock Blvd
+",Los Angeles,CA,90065,-,-,,,,,,,,,,,,,,
+Current,Public Storage,"3810 N Eagle Rock Blvd
+",Los Angeles,CA,90065,,,,,,,,,,,,,,,,
+Current,LA Security Storage,"6372 Santa Monica Blvd
+",Los Angeles,CA,90038,,,,,,,,,,,,,,$292,,
+Current,LA Security Storage,"6372 Santa Monica Blvd
+",Los Angeles,CA,90038,,,,,,,-,$90,,,,,,,,
+Current,LA Security Storage,"6372 Santa Monica Blvd
+",Los Angeles,CA,90038,"58,960","42,452","77,159","70,214","136,119","112,666",,,,,,,,,,
+Current,U-Lock Storage,"761 Normandie Ave
+",Los Angeles,CA,90005,"58,960","42,452","77,159","70,214","136,119","112,666",,,,,,,,,,
+Current,U-Lock Storage,"761 Normandie Ave
+",Los Angeles,CA,90005,"58,960","42,452",,,,,-,$92,-,$126,-,$174,-,$243,,
+Current,Keep It Self Storage,"4444 Vineland Ave
+",Los Angeles,CA,91602,,,,,,,-,$92,-,$126,-,$174,-,$243,,
+Current,Keep It Self Storage,"4444 Vineland Ave
+",Los Angeles,CA,91602,-,-,"72,699","66,156","72,699","66,156",-,$105,-,$151,-,$209,-,$298,,
+Current,Extra Space Storage,"1701 W Slauson Ave
+",Los Angeles,CA,90047,-,-,"72,699","66,156","72,699","66,156",-,$105,-,$151,-,$209,-,$298,,
+Current,US Storage Centers,"2500 W Hellman Ave
+",Alhambra,CA,91803,-,-,,,,,,,-,$142,-,$227,-,-,,
+Current,US Storage Centers,"2500 W Hellman Ave
+",Alhambra,CA,91803,"23,889","17,200",-,-,"23,889","17,200",-,$72,-,$142,-,$227,-,-,,
+Current,US Storage Centers,"2500 W Hellman Ave
+",South Gate,CA,90280,"23,889","17,200",-,-,"23,889","17,200",-,$72,-,$142,-,$227,-,-,,
+Current,Public Storage,"5001-5005 Firestone Pl
+",South Gate,CA,90280,,,,,,,,,,,,,,,,
+Current,Public Storage,"5001-5005 Firestone Pl
+",South Gate,CA,90280,-,-,"31,060","28,264","31,060","28,264",,,,,,,,,,
+Current,Public Storage,"5001-5005 Firestone Pl
+",South Gate,CA,90280,-,-,,,,,-,$68,-,$97,-,$153,-,$223,,
+Current,Nova Storage,"11230 Wright Rd
+",Lynwood,CA,90262,-,-,"83,661","76,131","83,661","76,131",-,$68,-,$97,-,$153,-,$223,,
+Current,Public Storage,"4583 Huntington Dr S
+",Los Angeles,CA,90032,-,-,"83,661","52,124","57,279","52,124",-,$75,-,$108,-,$175,-,$223,,
+Current,Public Storage,"4583 Huntington Dr S
+",Los Angeles,CA,90032,-,-,"57,279","52,124","57,279","52,124",-,$75,-,$108,-,$175,-,$223,,
+Current,A-1 Self Storage,"4427 San Fernando Rd
+",Glendale,CA,91204,,,,,,,,,,,,,,,,
+Current,A-1 Self Storage,"4427 San Fernando Rd
+",Glendale,CA,91204,-,-,"36,809","33,497",,"87,894",,$83,-,$144,-,$182,-,$253,,
+Current,U-Haul Moving & Storage of Lynwood,"11716-11798 Long Beach Blvd
+",Lynwood,CA,90262,-,-,"83,661","76,131","83,661","76,131",-,$68,-,$97,-,$153,-,$223,,
+Current,U-Haul Moving & Storage of Lynwood,"11716-11798 Long Beach Blvd
+",Lynwood,CA,90280,-,-,"83,661","76,131","83,661","76,131",-,$68,-,$97,-,$153,-,$223,,
+Current,South Gate Self Storage,"2401-2407 Southern Ave
+",South Gate,CA,90280,"46,346","33,369","9,912","9,020","56,258","42,389",-,$91,-,$116,-,$184,-,$267,,
+Current,Crenshaw Self Storage,"6725 Crenshaw Blvd
+",Los Angeles,CA,90043,"46,346","33,369","9,912","9,020","56,258","42,389",-,$91,-,$116,-,$184,-,$267,,
+Current,Crenshaw Self Storage,"6725 Crenshaw Blvd
+",Los Angeles,CA,90043,-,-,"56,578","51,486","56,578","51,486",,,,,,,,,,
+Current,Public Storage,"1776 Blake Ave
+",Los Angeles,CA,90031,-,-,"56,578","51,486","56,578","51,486",,,,,,,,,,
+Current,A-1 Self Storage,"8462 Garfield Ave
+",Bell Gardens,CA,90201,-,-,"56,578","51,486","56,578","51,486",,,,,,,,,,
+Current,A-1 Self Storage,"1000 W 6th St
+",Los Angeles,CA,90017,,-,"356,130","324,079","356,130","324,079",-,$69,-,$115,-,$159,-,-,,
+Current,Los Angeles Self Storage,"1000 W 6th St
+",Los Angeles,CA,90017,-,-,"356,130","324,079","356,130","324,079",-,$69,-,$115,-,$159,-,-,,
+Current,Arroyo Parkway Self Storage,"411 S Arroyo Pkwy
+",Pasadena,CA,91105,-,-,"356,130","324,079","356,130","324,079",-,$69,-,$115,-,$159,-,-,,
+Current,Arroyo Parkway Self Storage,"411 S Arroyo Pkwy
+",Pasadena,CA,91105,"180,336","129,842",-,-,"180,336","129,842",$101,-,$143,-,$239,-,$324,-,,
+Current,Public Storage,"888 S Fair Oaks Ave
+",Pasadena,CA,91105,"180,336","129,842",-,-,"180,336","129,842",$101,-,$143,-,$239,-,$324,-,,
+Current,Public Storage,"888 S Fair Oaks Ave
+",Pasadena,CA,91105,"99,936","71,954",-,-,"99,936","71,954",,,,,,,,,,
+Current,Public Storage,"4002 N Mission Rd
+",Los Angeles,CA,90032,"37,761","27,188",-,-,"37,761","27,188",-,-,-,-,-,$200,-,-,,
+Current,Public Storage,"3611 W Washington Blvd
+",Los Angeles,CA,90018,"37,761","27,188",-,-,"37,761","27,188",-,-,-,-,-,$200,-,-,,
+Current,Public Storage,"3770 Crenshaw Blvd
+",Los Angeles,CA,90016,"50,882","36,635",-,-,"50,882","36,635",-,$93,-,$128,-,$190,-,$276,,
+Current,Public Storage,"3770 Crenshaw Blvd
+",Los Angeles,CA,90016,"88,555","63,759",-,-,"88,555","63,759",-,$90,-,$125,-,$186,-,$248,,
+Current,Public Storage,"2370 Colorado Blvd
+",Los Angeles,CA,90041,-,-,"14,771","13,441","14,771","13,441",,,,,,,,,,
+Current,Central Storage Inc,"403 S Central Ave
+",Glendale,CA,91204,-,-,"14,771","13,441","14,771","13,441",,,,,,,,,,
+Current,Central Storage Inc,"403 S Central Ave
+",Glendale,CA,91204,"61,422","44,224","15,406","14,019","76,828","58,243",-,$96,-,$132,-,$191,-,$261,,
+Current,Public Storage,"12302 Bellflower Blvd
+",Downey,CA,90242,"61,422","44,224","15,406","14,019","76,828","58,243",-,$96,-,$132,-,$191,-,$261,,
+Current,U-Haul Moving & Storage of Gardena,"14202 Van Ness Ave
+",Gardena,CA,90249,"61,422","44,224","15,406","14,019","76,828","58,243",-,$96,-,$132,-,$191,-,$261,,
+Current,U-Haul Moving & Storage of Gardena,"14202 Van Ness Ave
+",Gardena,CA,90249,"97,125","69,930",-,-,"97,125","69,930",$72,$76,$115,$149,$182,$195,$264,$270,,
+Current,Public Storage,"12245 Woodruff Ave
+",Downey,CA,90241,"97,125","69,930",-,-,"97,125","69,930",$72,$76,$115,$149,$182,$195,$264,$270,,
+Current,Nova Storage - LA Gardena,"501-547 W 132nd St
+",Gardena,CA,90248,"97,125","69,930",-,-,"97,125","69,930",$72,$76,$115,$149,$182,$195,$264,$270,,
+Current,Nova Storage - LA Gardena,"501-547 W 132nd St
+",Gardena,CA,90248,-,-,"78,977","71,869","78,977","71,869",,,,,,,,,,
+Current,PSA Self Storage (Alhambra),"E Mission Rd
+",Alhambra,CA,91801,-,-,"136,544","124,255","136,544","124,255",-,-,-,-,-,-,-,-,,
+Current,PSA Self Storage (Alhambra),"E Mission Rd
+",Alhambra,CA,90249,"89,566","64,487","6,881","6,261","96,446","70,749",-,$100,-,$156,-,$190,-,$200,,
+Current,Storage Outlet Gardena,"13401 S Western Ave
+",Gardena,CA,90249,-,-,"8,161","7,426","8,161","7,426",-,$72,-,$125,-,-,-,-,,
+Current,Public Storage,"14209 S Western Ave
+",Gardena,CA,90249,-,-,"8,161","7,426","8,161","7,426",-,$72,-,$125,-,-,-,-,,
+Current,Public Storage,"14209 S Western Ave
+",Gardena,CA,90249,"115,393","83,083",-,-,"115,393","83,083",,,,,,,,,,
+Current,Public Storage,"14209 S Western Ave
+",Gardena,CA,90249,-,-,"56,578","51,486","56,578","51,486",,,,,,,,,,
+Current,Public Storage,"14209 S Western Ave
+",Gardena,CA,90249,"32,453","23,366",-,-,"32,453","23,366",,,,,,,,,,
+Current,Public Storage,"14209 S Western Ave
+",Gardena,CA,90249,-,-,"15,247","13,875","15,247","13,875",-,$89,-,$136,-,$230,-,-,,
+Current,Public Storage,"14209 S Western Ave
+",Gardena,CA,90249,"82,305","59,260",-,-,"82,305","59,260",-,$90,-,$135,-,$206,-,$267,,
+Current,Public Storage,"14209 S Western Ave
+",Gardena,CA,90249,"108,101","77,832",-,-,"108,101","77,832",-,$93,-,$125,-,$192,-,$247,,
+Current,Public Storage,"14209 S Western Ave
+",Gardena,CA,90249,"58,957","42,449",-,-,"58,957","42,449",-,$81,-,$121,-,$175,-,$225,,
+Current,Downtown Mini-Warehouse,"1050 W Washington Blvd
+",Los Angeles,CA,90015,-,-,"83,200","75,712","83,200","75,712",-,$74,-,$111,-,$151,-,$194,,
+Current,Downtown Mini-Warehouse,"1050 W Washington Blvd
+",Los Angeles,CA,90015,-,-,"136,544","124,255","136,544","124,255",-,-,-,-,-,-,-,-,,
+Current,Storage Outlet South Gate,"5903 Firestone Blvd
+",South Gate,CA,90280,-,-,"136,544","124,255","136,544","124,255",-,-,-,-,-,-,-,-,,
