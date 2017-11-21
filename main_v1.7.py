@@ -52,13 +52,12 @@ class scrapModel():
 
             self.output_name = 'Result/result.xlsx'
             self.xfile.save(self.output_name)
+            logTxt = "Success:\tCreated output XLSX file successfully."
+            self.log_printer.print_log(logTxt)
         except:
             logTxt = "Error:\tFailed to create output XLSX file."
             self.log_printer.print_log(logTxt)
             exit(1)
-
-        logTxt = "Success:\tCreated output XLSX file successfully."
-        self.log_printer.print_log(logTxt)
 
         ''' Create Coordinates XLSX file '''
 
@@ -89,13 +88,13 @@ class scrapModel():
 
             self.coordinates.reverse()
 
+            logTxt = "Error:\tFailed to read coordinates XLSX file."
+            self.log_printer.print_log(logTxt)
+
         except:
             logTxt = "Error:\tFailed to read coordinates XLSX file."
             self.log_printer.print_log(logTxt)
             exit(1)
-
-        logTxt = "Error:\tFailed to read coordinates XLSX file."
-        self.log_printer.print_log(logTxt)
 
     def pop_coordinate(self):
         try:
@@ -128,123 +127,130 @@ class scrapModel():
 
 class totalScraper():
     def init(self):
-        self.scraper = scraper()
-
-    def startScraping(self):
-        thread_1 =  threading.Thread(target=self.scraper.one_scraper())
-
-class scraper():
-    def __init__(self):
         self.scrapModel = scrapModel()
         self.log_printer = log_printer()
 
-    def total_scraper(self):
-
-        self.max_threads = 1
+    def startScraping(self):
+        self.max_threads = 2
         self.threads = []
-        self.drivers = []
 
         for i in range(self.max_threads):
-            self.passLogin()
+            scraper = scraper(self.scrapModel, self.log_printer)
+            thread =  threading.Thread(target=scraper.one_scraping)
+            thread.setDaemon(True)
+            thread.start()
+            self.threads.append(thread)
+            time.sleep(1)
 
-        self.drivers.reverse()
-
-        while self.threads or self.coordinates:
-            for thread in self.threads:
-                if not thread.is_alive():
-                    self.threads.remove(thread)
-
-            while len(self.threads) < self.max_threads and self.coordinates:
-                thread = threading.Thread(target=self.one_scraper)
-                thread.setDaemon(True)
-                thread.start()
-                self.threads.append(thread)
+class scraper():
+    def __init__(self, scrapModel, log_printer):
+        self.scrapModel = scrapModel
+        self.log_printer = log_printer
 
     def one_scraping(self):
-        driver = self.drivers.pop()
-        coord = self.coordinates.pop()
-        self.navigate_offset(driver, coord[0], coord[1])
+        self.passLogin()
 
-        self.drivers = [driver] + self.drivers
+        while(self.scrapModel.coordinates):
+            [x, y] = self.scrapModel.pop()
+            self.navigate_offset(x,y)
 
     def passLogin(self):
 
-        '''
-        chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument("--incognito")
-        driver = webdriver.Chrome(executable_path=os.getcwd() + '/WebDriver/chromedriver.exe',
-                                       chrome_options=chrome_options)
-        '''
-        driver = webdriver.Chrome(executable_path=os.getcwd() + '/WebDriver/chromedriver.exe')
-        driver.maximize_window()
-        driver.get(self.url)
-
-        print("Go to 'https://radius.unionrealtime.com/home'.")
-
-        signin_btns = WebDriverWait(driver, 200).until(
-            EC.presence_of_all_elements_located((By.CSS_SELECTOR, "button.btn.btn-clear.btn-lg"))
-        )
-        signin_btns[1].click()
-
-        print("Clicked 'SIGN IN'.")
-
-        # print(driver.page_source)
-
-        time.sleep(5)
-
-        WebDriverWait(driver, 200).until(
-            EC.visibility_of_element_located((By.CSS_SELECTOR, "div.auth0-lock-cred-pane.auth0-lock-quiet"))
-        )
-
-        time.sleep(5)
-
-        email_in = WebDriverWait(driver, 200).until(
-            EC.element_to_be_clickable((By.CSS_SELECTOR, "div.auth0-lock-input-email > div > input"))
-        )
-
-        action_chain = ActionChains(driver)
-        action_chain.click(email_in).send_keys(self.email).perform()
-
-        time.sleep(5)
-        print("Put email.")
-
-        pass_in = WebDriverWait(driver, 500).until(
-            EC.element_to_be_clickable((By.CSS_SELECTOR, "div.auth0-lock-input-password > div > input"))
-        )
-
-        action_chain = ActionChains(driver)
-        action_chain.click(pass_in).send_keys(self.password).perform()
-
-        time.sleep(3)
-        print("Put password.")
-
-        login_btn = WebDriverWait(driver, 200).until(
-            EC.visibility_of_element_located((By.CSS_SELECTOR, "button.auth0-lock-submit"))
-        )
-
-        login_btn.click()
-
-        print("Clicked login button.")
-
-        time.sleep(10)
-
-        self.drivers.append(driver)
-
-    def navigate_offset(self, driver, x, y):
+        try:
+            self.driver = webdriver.Chrome(executable_path=os.getcwd() + '/WebDriver/chromedriver.exe')
+            self.driver.maximize_window()
+            self.driver.get(self.url)
+            logTxt = "Success:\tGo to 'https://radius.unionrealtime.com/home'."
+            self.log_printer.print_log(logTxt)
+        except:
+            logTxt = "Error:\tFailed to access to the website."
+            self.log_printer.print_log(logTxt)
+            exit(1)
 
         try:
-            # driver.delete_all_cookies()
+            signin_btns = WebDriverWait(self.driver, 200).until(
+                EC.presence_of_all_elements_located((By.CSS_SELECTOR, "button.btn.btn-clear.btn-lg"))
+            )
+            signin_btns[1].click()
+            time.sleep(5)
+            logTxt = "Success:\tClicked SIGN IN button."
+            self.log_printer.print_log(logTxt)
+        except:
+            logTxt = "Error:\tFailed to click SIGN IN button."
+            self.log_printer.print_log(logTxt)
+            exit(1)
 
-            print(
-                '\n###########################################################################################################################################################\n')
-            minus_btn = WebDriverWait(driver, 50).until(
+        try:
+            WebDriverWait(self.driver, 200).until(
+                EC.visibility_of_element_located((By.CSS_SELECTOR, "div.auth0-lock-cred-pane.auth0-lock-quiet"))
+            )
+
+            time.sleep(5)
+
+            email_in = WebDriverWait(self.driver, 200).until(
+                EC.element_to_be_clickable((By.CSS_SELECTOR, "div.auth0-lock-input-email > div > input"))
+            )
+
+            action_chain = ActionChains(self.driver)
+            action_chain.click(email_in).send_keys(self.email).perform()
+
+            time.sleep(5)
+
+            logTxt = "Success:\tPut email."
+            self.log_printer.print_log(logTxt)
+
+            pass_in = WebDriverWait(self.driver, 500).until(
+                EC.element_to_be_clickable((By.CSS_SELECTOR, "div.auth0-lock-input-password > div > input"))
+            )
+
+            action_chain = ActionChains(self.driver)
+            action_chain.click(pass_in).send_keys(self.password).perform()
+
+            time.sleep(3)
+
+            logTxt = "Success:\tPut password."
+            self.log_printer.print_log(logTxt)
+
+            login_btn = WebDriverWait(self.driver, 200).until(
+                EC.visibility_of_element_located((By.CSS_SELECTOR, "button.auth0-lock-submit"))
+            )
+
+            login_btn.click()
+
+            logTxt = "Success:\tClicked login button."
+            self.log_printer.print_log(logTxt)
+            time.sleep(10)
+
+        except:
+            logTxt = "Error:\tFailed to log in."
+            self.log_printer.print_log(logTxt)
+            exit(1)
+
+    def navigate_offset(self, x, y):
+
+        logTxt = '\n###########################################################################################################################################################\n'
+        self.log_printer.print_log(logTxt)
+
+        try:
+            # self.driver.delete_all_cookies()
+            minus_btn = WebDriverWait(self.driver, 50).until(
                 EC.element_to_be_clickable((By.XPATH, "//*[@src='/assets/images/zo.png']"))
             )
             minus_btn.click()
+            time.sleep(2)
 
-            time.sleep(1)
+            logTxt = 'Success:\tClicked minus button successfully.'
+            self.log_printer.print_log(logTxt)
 
-            radius_link = WebDriverWait(driver, 50).until(
+        except:
+            logTxt = 'Error:\tFailed to click minus button successfully.'
+            self.log_printer.print_log(logTxt)
+            self.scrapModel.add_coordinate([x,y])
+            return
+
+
+        try:
+            radius_link = WebDriverWait(self.driver, 50).until(
                 EC.visibility_of_element_located((By.CSS_SELECTOR, "li#radius-link"))
             )
 
@@ -252,12 +258,16 @@ class scraper():
 
             action_chain = ActionChains(driver)
             action_chain.move_to_element(radius_link).move_by_offset(x, y).click().perform()
+            time.sleep(2)
+
+            logTxt = 'Success:\tClicked ({}, {}).'.format(x,y)
+            self.log_printer.print_log(logTxt)
 
             logTxt = 'Moved to : ({}, {}).'.format(x, y)
             print(logTxt)
             self.print_log(logTxt)
 
-            time.sleep(2)
+
 
             '''
             favorite_btn = WebDriverWait(driver, 50).until(
@@ -277,8 +287,8 @@ class scraper():
 
             time.sleep(2)
 
-            self.marker_search(driver, 'red')
-            self.marker_search(driver, 'blue')
+            self.marker_search('red')
+            self.marker_search('blue')
 
             fullscreen_btn = WebDriverWait(driver, 50).until(
                 EC.element_to_be_clickable((By.XPATH, "//div[@class='gm-style']/button"))
@@ -288,7 +298,7 @@ class scraper():
         except:
             pass
 
-    def marker_search(self, driver, _type):
+    def marker_search(self, _type):
 
         try:
             strange_markers = WebDriverWait(driver, 5).until(
