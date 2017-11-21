@@ -25,11 +25,8 @@ class scrapModel():
         self.email = 'TuckerCapitalGroup@gmail.com'
         self.password = '2bstronger'
         self.coordinates = []
-        self.overflow_msg = []
-        self.marker_msg = []
         self.total_out = []
         self.total_cnt = 0
-        self.total_coor_cnt = 0
         self.log_printer = log_printer()
 
         ''' Create Output XLSX file '''
@@ -75,7 +72,7 @@ class scrapModel():
 
         ''' Read Coordinates XLSX file '''
         try:
-            in_coor_name = 'Date/coordinates.xlsx'
+            in_coor_name = 'Data/coordinates.xlsx'
             xfile_in = xlrd.open_workbook(in_coor_name)
             sheet_in = xfile_in.sheet_by_index(0)
 
@@ -88,7 +85,7 @@ class scrapModel():
 
             self.coordinates.reverse()
 
-            logTxt = "Error:\tFailed to read coordinates XLSX file."
+            logTxt = "Success:\tRead coordinates XLSX file successfully."
             self.log_printer.print_log(logTxt)
 
         except:
@@ -125,25 +122,38 @@ class scrapModel():
             logTxt = "Failed to add row to xlsx."
             self.log_printer.print_log(logTxt)
 
+    def isRowExist(self, row):
+        if row in self.total_out:
+            return True
+        else:
+            return False
+
+    def add_row(self, row):
+        self.total_out.append(row)
+
 class totalScraper():
-    def init(self):
+    def __init__(self):
         self.scrapModel = scrapModel()
         self.log_printer = log_printer()
 
     def startScraping(self):
-        self.max_threads = 2
+        self.max_threads = 1
         self.threads = []
 
         for i in range(self.max_threads):
-            scraper = scraper(self.scrapModel, self.log_printer)
+            scraper = onescraper(self.scrapModel, self.log_printer)
             thread =  threading.Thread(target=scraper.one_scraping)
             thread.setDaemon(True)
             thread.start()
             self.threads.append(thread)
             time.sleep(1)
 
-class scraper():
+class onescraper():
     def __init__(self, scrapModel, log_printer):
+        self.url = 'https://radius.unionrealtime.com/home'
+        self.email = 'TuckerCapitalGroup@gmail.com'
+        self.password = '2bstronger'
+        self.total_out = []
         self.scrapModel = scrapModel
         self.log_printer = log_printer
 
@@ -256,52 +266,71 @@ class scraper():
 
             # radius_link.click()
 
-            action_chain = ActionChains(driver)
+            action_chain = ActionChains(self.driver)
             action_chain.move_to_element(radius_link).move_by_offset(x, y).click().perform()
             time.sleep(2)
 
             logTxt = 'Success:\tClicked ({}, {}).'.format(x,y)
             self.log_printer.print_log(logTxt)
 
-            logTxt = 'Moved to : ({}, {}).'.format(x, y)
-            print(logTxt)
-            self.print_log(logTxt)
+        except:
+            logTxt = 'Error:\tFailed to click ({}, {}).'.format(x, y)
+            self.log_printer.print_log(logTxt)
+            self.scrapModel.add_coordinate([x, y])
+            return
 
 
+        '''
+        favorite_btn = WebDriverWait(self.driver, 50).until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, "i.fa.fa-building.text-white"))
+        )
 
-            '''
-            favorite_btn = WebDriverWait(driver, 50).until(
-                EC.element_to_be_clickable((By.CSS_SELECTOR, "i.fa.fa-building.text-white"))
-            )
+        favorite_btn.click()
 
-            favorite_btn.click()
+        time.sleep(1)
+        '''
 
-            time.sleep(1)
-            '''
-
-            fullscreen_btn = WebDriverWait(driver, 50).until(
+        try:
+            fullscreen_btn = WebDriverWait(self.driver, 50).until(
                 EC.element_to_be_clickable((By.XPATH, "//div[@class='gm-style']/button"))
             )
 
             fullscreen_btn.click()
-
             time.sleep(2)
 
-            self.marker_search('red')
-            self.marker_search('blue')
+            logTxt = 'Success:\tClicked fullscreen button(1).'
+            self.log_printer.print_log(logTxt)
 
-            fullscreen_btn = WebDriverWait(driver, 50).until(
+        except:
+            logTxt = 'Error:\tFailed to click fullscreen button(1).'
+            self.log_printer.print_log(logTxt)
+            self.scrapModel.add_coordinate([x, y])
+            return
+
+        self.marker_search('red')
+        self.marker_search('blue')
+
+        try:
+            fullscreen_btn = WebDriverWait(self.driver, 50).until(
                 EC.element_to_be_clickable((By.XPATH, "//div[@class='gm-style']/button"))
             )
 
             fullscreen_btn.click()
+            time.sleep(2)
+
+            logTxt = 'Success:\tClicked fullscreen button(2).'
+            self.log_printer.print_log(logTxt)
+
         except:
-            pass
+            logTxt = 'Error:\tFailed to click fullscreen button(2).'
+            self.log_printer.print_log(logTxt)
+            self.scrapModel.add_coordinate([x, y])
+            return
 
     def marker_search(self, _type):
 
         try:
-            strange_markers = WebDriverWait(driver, 5).until(
+            strange_markers = WebDriverWait(self.driver, 5).until(
                 EC.presence_of_element_located(
                     (By.XPATH, "//img[@src='//cdn.rawgit.com/mahnunchik/markerclustererplus/master/images/m3.png']"))
             )
@@ -312,7 +341,7 @@ class scraper():
             pass
 
         try:
-            strange_markers = WebDriverWait(driver, 5).until(
+            strange_markers = WebDriverWait(self.driver, 5).until(
                 EC.presence_of_element_located(
                     (By.XPATH, "//img[@src='//cdn.rawgit.com/mahnunchik/markerclustererplus/master/images/m1.png']"))
             )
@@ -323,239 +352,254 @@ class scraper():
             pass
 
         try:
-            new_markers = WebDriverWait(driver, 10).until(
+            new_markers = WebDriverWait(self.driver, 10).until(
                 EC.presence_of_all_elements_located((By.XPATH, "//img[@src='/assets/images/dot_{}.png']".format(_type)))
             )
 
-            if len(new_markers) is 1:
-                return
+            logTxt = '\tSuccess:\t{} markers are found.'.format(len(new_markers))
+            self.log_printer.print_log(logTxt)
 
-            for marker in new_markers:
+        except:
+            logTxt = '\tError:\t{} No markers are found.'.format(len(new_markers))
+            self.log_printer.print_log(logTxt)
+            return
 
-                print(
-                    '\t-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n')
+        if len(new_markers) is 1:
+            logTxt = '\tOnly 1 marker is found, so skipped.'
+            self.log_printer.print_log(logTxt)
+            return
+
+        for marker in new_markers:
+
+            logTxt = '\t-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n'
+            self.log_printer.print_log(logTxt)
+
+            try:
+                parent_of_marker = marker.find_element_by_xpath('..')
+                parent_of_marker_txt = parent_of_marker.text.strip()
+                if 'Current Supply' in parent_of_marker_txt or 'New Supply' in parent_of_marker_txt or 'Selected' in parent_of_marker_txt:
+                    logTxt = "\t\tThis is 'Current' or 'New Supply', 'Selected' marker"
+                    self.log_printer.print_log(logTxt)
+                    continue
+
+                style_txt = parent_of_marker.get_attribute('style')
+                import re
+                regex = r"left: ([\d-]+)px; top: ([\d-]+)px"
+                match = re.findall(regex, style_txt)
+
+                left_px = float(list(match[0])[0])
+                top_px = float(list(match[0])[1])
+
+                if left_px < 0 or left_px > 1920 or top_px < 0 or top_px > 1080:
+                    logTxt = "\t\tThis is marker out of screen."
+                    self.log_printer.print_log(logTxt)
+                    continue
+            except:
+                logTxt = '\t\tError: Error happened in validating marker.'
+                self.log_printer.print_log(logTxt)
+                continue
+
+            try:
+                action_chain = ActionChains(self.driver)
+                action_chain.move_to_element(marker).click(marker).perform()
+                logTxt = "\t\tSuccess:\tMarker is clicked."
+                self.log_printer.print_log(logTxt)
+            except:
+                logTxt = "\t\tError:\tMarker is unable to be clicked."
+                self.log_printer.print_log(logTxt)
+                continue
+
+            try:
+                WebDriverWait(self.driver, 2).until(
+                    EC.visibility_of_element_located(
+                        (By.CSS_SELECTOR, "div.iw"))
+                )
+                logTxt = "\t\tSucess:\tMarker overflow message is found."
+                self.log_printer.print_log(logTxt)
+
+            except:
+                logTxt = "\t\tError:\tMarker overflow message is not found."
+                self.log_printer.print_log(logTxt)
+                continue
+
+            try:
+                if _type is 'red':
+                    type = 'Current'
+                else:
+                    type = 'New'
+
                 try:
-                    parent_of_marker = marker.find_element_by_xpath('..')
-                    parent_of_marker_txt = parent_of_marker.text.strip()
-                    if 'Current Supply' in parent_of_marker_txt or 'New Supply' in parent_of_marker_txt or 'Selected' in parent_of_marker_txt:
-                        continue
+                    # name_of_facility = facility_panels[0].text.strip()
+                    name_of_facility = self.driver.find_element_by_xpath(
+                        "//div[@class='iw']/h4").text.strip()
+                except:
+                    name_of_facility = ''
 
-                    style_txt = parent_of_marker.get_attribute('style')
-                    import re
-                    regex = r"left: ([\d-]+)px; top: ([\d-]+)px"
-                    match = re.findall(regex, style_txt)
-
-                    left_px = float(list(match[0])[0])
-                    top_px = float(list(match[0])[1])
-
-                    if left_px < 0 or left_px > 1920 or top_px < 0 or top_px > 1080:
-                        continue
-
-                    action_chain = ActionChains(driver)
-                    action_chain.move_to_element(marker).click(marker).perform()
-
-                    print('\tMarker is clicked.\n')
-
-                    WebDriverWait(driver, 2).until(
-                        EC.visibility_of_element_located(
-                            (By.CSS_SELECTOR, "div.iw"))
-                    )
-
-                    if _type is 'red':
-                        type = 'Current'
-                    else:
-                        type = 'New'
+                try:
+                    # address = facility_panels[1].text.strip() + '\n' + facility_panels[2].text.strip()
+                    address_city_state_zip = self.driver.find_element_by_xpath(
+                        "//div[@class='iw']/p").text.strip().split('\n')
+                    try:
+                        address = address_city_state_zip[0]
+                    except:
+                        address = ''
 
                     try:
-                        # name_of_facility = facility_panels[0].text.strip()
-                        name_of_facility = driver.find_element_by_xpath(
-                            "//div[@class='iw']/h4").text.strip()
+                        city = address_city_state_zip[1]
                     except:
-                        name_of_facility = ''
+                        city = ''
 
                     try:
-                        # address = facility_panels[1].text.strip() + '\n' + facility_panels[2].text.strip()
-                        address_city_state_zip = driver.find_element_by_xpath(
-                            "//div[@class='iw']/p").text.strip().split('\n')
-                        try:
-                            address = address_city_state_zip[0]
-                        except:
-                            address = ''
-
-                        try:
-                            city = address_city_state_zip[1]
-                        except:
-                            city = ''
-
-                        try:
-                            state = address_city_state_zip[2]
-                        except:
-                            state = ''
-
-                        try:
-                            zip = address_city_state_zip[3]
-                        except:
-                            zip = ''
-
+                        state = address_city_state_zip[2]
                     except:
-                        pass
+                        state = ''
 
                     try:
-                        climate_gross_sqft = driver.find_element_by_xpath(
-                            "//div[@class='iw']/table[1]/tbody/tr[1]/td[2]").text.strip()
+                        zip = address_city_state_zip[3]
                     except:
-                        climate_gross_sqft = ''
-
-                    try:
-                        climate_net_sqft = driver.find_element_by_xpath(
-                            "//div[@class='iw']/table[1]/tbody/tr[1]/td[3]").text.strip()
-                    except:
-                        climate_net_sqft = ''
-
-                    try:
-                        non_climate_gross_sqft = driver.find_element_by_xpath(
-                            "//div[@class='iw']/table[1]/tbody/tr[2]/td[2]").text.strip()
-                    except:
-                        non_climate_gross_sqft = ''
-
-                    try:
-                        non_climate_net_sqft = driver.find_element_by_xpath(
-                            "//div[@class='iw']/table[1]/tbody/tr[2]/td[3]").text.strip()
-                    except:
-                        non_climate_net_sqft = ''
-
-                    try:
-                        gross_sqft = driver.find_element_by_xpath(
-                            "//div[@class='iw']/table[1]/tbody/tr[3]/td[2]").text.strip()
-                    except:
-                        gross_sqft = ''
-
-                    try:
-                        net_sqft = driver.find_element_by_xpath(
-                            "//div[@class='iw']/table[1]/tbody/tr[3]/td[3]").text.strip()
-                    except:
-                        net_sqft = ''
-
-                    try:
-                        climate_5_5 = driver.find_element_by_xpath(
-                            "//div[@class='iw']/table[2]/tbody/tr[1]/td[2]").text.strip()
-                    except:
-                        climate_5_5 = ''
-
-                    try:
-                        non_climate_5_5 = driver.find_element_by_xpath(
-                            "//div[@class='iw']/table[2]/tbody/tr[1]/td[3]").text.strip()
-                    except:
-                        non_climate_5_5 = ''
-
-                    try:
-                        climate_5_10 = driver.find_element_by_xpath(
-                            "//div[@class='iw']/table[2]/tbody/tr[2]/td[2]").text.strip()
-                    except:
-                        climate_5_10 = ''
-
-                    try:
-                        non_climate_5_10 = driver.find_element_by_xpath(
-                            "//div[@class='iw']/table[2]/tbody/tr[2]/td[3]").text.strip()
-                    except:
-                        non_climate_5_10 = ''
-
-                    try:
-                        climate_10_10 = driver.find_element_by_xpath(
-                            "//div[@class='iw']/table[2]/tbody/tr[3]/td[2]").text.strip()
-                    except:
-                        climate_10_10 = ''
-
-                    try:
-                        non_climate_10_10 = driver.find_element_by_xpath(
-                            "//div[@class='iw']/table[2]/tbody/tr[3]/td[3]").text.strip()
-                    except:
-                        non_climate_10_10 = ''
-
-                    try:
-                        climate_10_15 = driver.find_element_by_xpath(
-                            "//div[@class='iw']/table[2]/tbody/tr[4]/td[2]").text.strip()
-                    except:
-                        climate_10_15 = ''
-
-                    try:
-                        non_climate_10_15 = driver.find_element_by_xpath(
-                            "//div[@class='iw']/table[2]/tbody/tr[4]/td[3]").text.strip()
-                    except:
-                        non_climate_10_15 = ''
-
-                    try:
-                        climate_10_20 = driver.find_element_by_xpath(
-                            "//div[@class='iw']/table[2]/tbody/tr[5]/td[2]").text.strip()
-                    except:
-                        climate_10_20 = ''
-
-                    try:
-                        non_climate_10_20 = driver.find_element_by_xpath(
-                            "//div[@class='iw']/table[2]/tbody/tr[5]/td[3]").text.strip()
-                    except:
-                        non_climate_10_20 = ''
-
-                    close_btn = driver.find_element_by_xpath(
-                        "//*[@id='page-wrapper']/div[2]/div[1]/div/div[1]/div/div/div[1]/div/div/div/div/div[1]/div[4]/div[4]/div[2]/div[3]")
-                    close_btn.click()
-
-                    if [
-                        type, name_of_facility, address, city, state, zip
-                    ] not in self.total_out:
-                        self.total_out.append(
-                            [
-                                type, name_of_facility, address, city, state, zip
-                            ]
-                        )
-
-                        self.total_cnt += 1
-
-                        '''
-                        self.writer.writerow(
-                            [
-                                type, name_of_facility, address, city, state, zip, climate_gross_sqft,
-                                climate_net_sqft,
-                                non_climate_gross_sqft, non_climate_net_sqft, gross_sqft, net_sqft, climate_5_5,
-                                non_climate_5_5, climate_5_10, non_climate_5_10, climate_10_10,
-                                non_climate_10_10,
-                                climate_10_15, non_climate_10_15, climate_10_20, non_climate_10_20
-                            ]
-                        )
-                        '''
-
-                        for i, elm in enumerate([
-                            type, name_of_facility, address, city, state, zip, climate_gross_sqft,
-                            climate_net_sqft,
-                            non_climate_gross_sqft, non_climate_net_sqft, gross_sqft, net_sqft, climate_5_5,
-                            non_climate_5_5, climate_5_10, non_climate_5_10, climate_10_10,
-                            non_climate_10_10,
-                            climate_10_15, non_climate_10_15, climate_10_20, non_climate_10_20
-                        ]):
-                            self.sheet.cell(row=self.total_cnt + 1, column=i + 1).value = elm
-
-                        self.xfile.save(self.output_name)
-
-                        logTxt = '\t{0}\n\t{1}\n\t{2}\n\t{3}\n\t{4}\n\t{5}\n\t{6}\n\t{7}\n\t{8}\n\t{9}\n\t{10}\n' \
-                                 '\t{11}\n\t{12}\n\t{13}\n\t{14}\n\t{15}\n\t{16}\n\t{17}\n\t{18}\n\t{19}\n\t{20}\n' \
-                                 '\t{21}\n'.format(
-                            type, name_of_facility, address, city, state, zip, climate_gross_sqft,
-                            climate_net_sqft,
-                            non_climate_gross_sqft, non_climate_net_sqft, gross_sqft, net_sqft, climate_5_5,
-                            non_climate_5_5, climate_5_10, non_climate_5_10, climate_10_10,
-                            non_climate_10_10,
-                            climate_10_15, non_climate_10_15, climate_10_20, non_climate_10_20
-                        )
-
-                        print(logTxt)
-
-                        logTxt = '\tTotal Count: {}\n'.format(self.total_cnt)
-                        print(logTxt)
+                        zip = ''
 
                 except:
                     pass
-        except:
-            pass
+
+                try:
+                    climate_gross_sqft = self.driver.find_element_by_xpath(
+                        "//div[@class='iw']/table[1]/tbody/tr[1]/td[2]").text.strip()
+                except:
+                    climate_gross_sqft = ''
+
+                try:
+                    climate_net_sqft = self.driver.find_element_by_xpath(
+                        "//div[@class='iw']/table[1]/tbody/tr[1]/td[3]").text.strip()
+                except:
+                    climate_net_sqft = ''
+
+                try:
+                    non_climate_gross_sqft = self.driver.find_element_by_xpath(
+                        "//div[@class='iw']/table[1]/tbody/tr[2]/td[2]").text.strip()
+                except:
+                    non_climate_gross_sqft = ''
+
+                try:
+                    non_climate_net_sqft = self.driver.find_element_by_xpath(
+                        "//div[@class='iw']/table[1]/tbody/tr[2]/td[3]").text.strip()
+                except:
+                    non_climate_net_sqft = ''
+
+                try:
+                    gross_sqft = self.driver.find_element_by_xpath(
+                        "//div[@class='iw']/table[1]/tbody/tr[3]/td[2]").text.strip()
+                except:
+                    gross_sqft = ''
+
+                try:
+                    net_sqft = self.driver.find_element_by_xpath(
+                        "//div[@class='iw']/table[1]/tbody/tr[3]/td[3]").text.strip()
+                except:
+                    net_sqft = ''
+
+                try:
+                    climate_5_5 = self.driver.find_element_by_xpath(
+                        "//div[@class='iw']/table[2]/tbody/tr[1]/td[2]").text.strip()
+                except:
+                    climate_5_5 = ''
+
+                try:
+                    non_climate_5_5 = self.driver.find_element_by_xpath(
+                        "//div[@class='iw']/table[2]/tbody/tr[1]/td[3]").text.strip()
+                except:
+                    non_climate_5_5 = ''
+
+                try:
+                    climate_5_10 = self.driver.find_element_by_xpath(
+                        "//div[@class='iw']/table[2]/tbody/tr[2]/td[2]").text.strip()
+                except:
+                    climate_5_10 = ''
+
+                try:
+                    non_climate_5_10 = self.driver.find_element_by_xpath(
+                        "//div[@class='iw']/table[2]/tbody/tr[2]/td[3]").text.strip()
+                except:
+                    non_climate_5_10 = ''
+
+                try:
+                    climate_10_10 = self.driver.find_element_by_xpath(
+                        "//div[@class='iw']/table[2]/tbody/tr[3]/td[2]").text.strip()
+                except:
+                    climate_10_10 = ''
+
+                try:
+                    non_climate_10_10 = self.driver.find_element_by_xpath(
+                        "//div[@class='iw']/table[2]/tbody/tr[3]/td[3]").text.strip()
+                except:
+                    non_climate_10_10 = ''
+
+                try:
+                    climate_10_15 = self.driver.find_element_by_xpath(
+                        "//div[@class='iw']/table[2]/tbody/tr[4]/td[2]").text.strip()
+                except:
+                    climate_10_15 = ''
+
+                try:
+                    non_climate_10_15 = self.driver.find_element_by_xpath(
+                        "//div[@class='iw']/table[2]/tbody/tr[4]/td[3]").text.strip()
+                except:
+                    non_climate_10_15 = ''
+
+                try:
+                    climate_10_20 = self.driver.find_element_by_xpath(
+                        "//div[@class='iw']/table[2]/tbody/tr[5]/td[2]").text.strip()
+                except:
+                    climate_10_20 = ''
+
+                try:
+                    non_climate_10_20 = self.driver.find_element_by_xpath(
+                        "//div[@class='iw']/table[2]/tbody/tr[5]/td[3]").text.strip()
+                except:
+                    non_climate_10_20 = ''
+
+                close_btn = self.driver.find_element_by_xpath(
+                    "//*[@id='page-wrapper']/div[2]/div[1]/div/div[1]/div/div/div[1]/div/div/div/div/div[1]/div[4]/div[4]/div[2]/div[3]")
+                close_btn.click()
+
+                logTxt = "\t\tSucess:\tScraped data from marker overflow message."
+                self.log_printer.print_log(logTxt)
+
+            except:
+                logTxt = "\t\tError:\tCan't scrape data from marker overflow message."
+                self.log_printer.print_log(logTxt)
+                continue
+
+            if self.scrapModel.isRowExist([type, name_of_facility, address, city, state, zip]) is False:
+                self.scrapModel.add_row([type, name_of_facility, address, city, state, zip])
+                self.scrapModel.add_row_xlsx([
+                    type, name_of_facility, address, city, state, zip, climate_gross_sqft,
+                    climate_net_sqft,
+                    non_climate_gross_sqft, non_climate_net_sqft, gross_sqft, net_sqft, climate_5_5,
+                    non_climate_5_5, climate_5_10, non_climate_5_10, climate_10_10,
+                    non_climate_10_10,
+                    climate_10_15, non_climate_10_15, climate_10_20, non_climate_10_20
+                ])
+
+                logTxt = '\t{0}\n\t{1}\n\t{2}\n\t{3}\n\t{4}\n\t{5}\n\t{6}\n\t{7}\n\t{8}\n\t{9}\n\t{10}\n' \
+                         '\t{11}\n\t{12}\n\t{13}\n\t{14}\n\t{15}\n\t{16}\n\t{17}\n\t{18}\n\t{19}\n\t{20}\n' \
+                         '\t{21}\n'.format(
+                    type, name_of_facility, address, city, state, zip, climate_gross_sqft,
+                    climate_net_sqft,
+                    non_climate_gross_sqft, non_climate_net_sqft, gross_sqft, net_sqft, climate_5_5,
+                    non_climate_5_5, climate_5_10, non_climate_5_10, climate_10_10,
+                    non_climate_10_10,
+                    climate_10_15, non_climate_10_15, climate_10_20, non_climate_10_20
+                )
+
+                self.log_printer.print_log(logTxt)
+
+                logTxt = '\tTotal Count: {}'.format(self.scrapModel.total_cnt)
+                self.log_printer.print_log(logTxt)
+
+            else:
+                logTxt = '\tThis marker was found before'
+                self.log_printer.print_log(logTxt)
 
 class log_printer():
     def __init__(self):
@@ -587,7 +631,6 @@ def date2str(dt, deliminter, order=0):
 
     return dateStr
 
-
 if __name__ == '__main__':
-    app = scrapRadius()
-    app.total_scraper()
+    app = totalScraper()
+    app.startScraping()

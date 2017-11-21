@@ -1,0 +1,2 @@
+Success:	Created output XLSX file successfully.
+Error:	Failed to read coordinates XLSX file.
