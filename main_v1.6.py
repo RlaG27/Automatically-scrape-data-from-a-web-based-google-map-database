@@ -79,6 +79,27 @@ class scrapRadius():
 
         self.coordinates.reverse()
 
+        curDate = date.today()
+        curDateStr = date2str(curDate, '.', 0)
+
+        self.logFile_name = "Log_File_" + curDateStr + ".txt"
+        try:
+            self.logFile = open(self.logFile_name, "a+")
+            logTxt = "Log file created successfully!!!\n"
+            print(logTxt)
+        except:
+            logTxt = "It failed to create log file\n"
+            print(logTxt)
+            exit(1)
+
+    def print_log(self, logTxt):
+        self.logFile.write(logTxt + '\n')
+        self.logFile.flush()
+
+    def close_log(self):
+        self.logFile.close()
+
+
     def total_scraper(self):
 
         self.max_threads = 1
@@ -173,54 +194,62 @@ class scrapRadius():
 
     def navigate_offset(self, driver, x, y):
 
-        #driver.delete_all_cookies()
+        try:
+            #driver.delete_all_cookies()
 
-        print(
-            '\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n')
-        minus_btn = WebDriverWait(driver, 50).until(
-            EC.element_to_be_clickable((By.XPATH, "//*[@src='/assets/images/zo.png']"))
-        )
-        minus_btn.click()
+            print(
+                '\n###########################################################################################################################################################\n')
+            minus_btn = WebDriverWait(driver, 50).until(
+                EC.element_to_be_clickable((By.XPATH, "//*[@src='/assets/images/zo.png']"))
+            )
+            minus_btn.click()
 
-        time.sleep(1)
+            time.sleep(1)
 
-        radius_link = WebDriverWait(driver, 50).until(
-            EC.visibility_of_element_located((By.CSS_SELECTOR, "li#radius-link"))
-        )
-        action_chain = ActionChains(driver)
-        action_chain.move_to_element(radius_link).move_by_offset(x, y).click().perform()
+            radius_link = WebDriverWait(driver, 50).until(
+                EC.visibility_of_element_located((By.CSS_SELECTOR, "li#radius-link"))
+            )
 
-        print('Moved to : ({}, {}).'.format(x, y))
+            #radius_link.click()
 
-        time.sleep(2)
+            action_chain = ActionChains(driver)
+            action_chain.move_to_element(radius_link).move_by_offset(x, y).click().perform()
 
-        favorite_btn = WebDriverWait(driver, 50).until(
-            EC.element_to_be_clickable((By.CSS_SELECTOR, "i.fa.fa-building.text-white"))
-        )
+            logTxt = 'Moved to : ({}, {}).'.format(x, y)
+            print(logTxt)
+            self.print_log(logTxt)
 
-        favorite_btn.click()
 
-        fullscreen_btn = WebDriverWait(driver, 50).until(
-            EC.element_to_be_clickable((By.XPATH, "//div[@class='gm-style']/button"))
-        )
+            time.sleep(2)
 
-        fullscreen_btn.click()
+            '''
+            favorite_btn = WebDriverWait(driver, 50).until(
+                EC.element_to_be_clickable((By.CSS_SELECTOR, "i.fa.fa-building.text-white"))
+            )
+    
+            favorite_btn.click()
+    
+            time.sleep(1)
+            '''
 
-        time.sleep(2)
+            fullscreen_btn = WebDriverWait(driver, 50).until(
+                EC.element_to_be_clickable((By.XPATH, "//div[@class='gm-style']/button"))
+            )
 
-        self.marker_search(driver, 'red')
-        self.marker_search(driver, 'blue')
+            fullscreen_btn.click()
 
-        fullscreen_btn = WebDriverWait(driver, 50).until(
-            EC.element_to_be_clickable((By.XPATH, "//div[@class='gm-style']/button"))
-        )
+            time.sleep(2)
 
-        fullscreen_btn.click()
+            self.marker_search(driver, 'red')
+            self.marker_search(driver, 'blue')
 
-        radius_link = WebDriverWait(driver, 50).until(
-            EC.visibility_of_element_located((By.CSS_SELECTOR, "li#radius-link"))
-        )
-        radius_link.click()
+            fullscreen_btn = WebDriverWait(driver, 50).until(
+                EC.element_to_be_clickable((By.XPATH, "//div[@class='gm-style']/button"))
+            )
+
+            fullscreen_btn.click()
+        except:
+            pass
 
     def marker_search(self, driver, _type):
 
@@ -256,16 +285,30 @@ class scrapRadius():
 
             for marker in new_markers:
 
+                print('\t-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\n')
                 try:
-                    parent_of_marker = marker.find_element_by_xpath('..').text.strip()
+                    parent_of_marker = marker.find_element_by_xpath('..')
+                    parent_of_marker_txt = parent_of_marker.text.strip()
+                    if 'Current Supply' in parent_of_marker_txt or 'New Supply' in parent_of_marker_txt or 'Selected' in parent_of_marker_txt:
+                        continue
 
-                    if 'Current Supply' in parent_of_marker or 'New Supply' in parent_of_marker or 'Selected' in parent_of_marker:
+                    style_txt = parent_of_marker.get_attribute('style')
+                    import re
+                    regex = r"left: ([\d-]+)px; top: ([\d-]+)px"
+                    match = re.findall(regex, style_txt)
+
+                    left_px = float(list(match[0])[0])
+                    top_px = float(list(match[0])[1])
+
+                    if left_px < 0 or left_px > 1920 or top_px < 0 or top_px > 1080:
                         continue
 
                     action_chain = ActionChains(driver)
-                    action_chain.move_to_element(marker).move_by_offset(0, -20).click(marker).perform()
+                    action_chain.move_to_element(marker).click(marker).perform()
 
-                    WebDriverWait(driver, 5).until(
+                    print('\tMarker is clicked.\n')
+
+                    WebDriverWait(driver, 2).until(
                         EC.visibility_of_element_located(
                             (By.CSS_SELECTOR, "div.iw"))
                     )
@@ -305,8 +348,6 @@ class scrapRadius():
                             zip = address_city_state_zip[3]
                         except:
                             zip = ''
-
-
 
                     except:
                         pass
@@ -412,19 +453,11 @@ class scrapRadius():
                     close_btn.click()
 
                     if [
-                        type, name_of_facility, address, city, state, zip, climate_gross_sqft, climate_net_sqft,
-                        non_climate_gross_sqft, non_climate_net_sqft, gross_sqft, net_sqft, climate_5_5,
-                        non_climate_5_5, climate_5_10, non_climate_5_10, climate_10_10, non_climate_10_10,
-                        climate_10_15, non_climate_10_15, climate_10_20, non_climate_10_20
+                        type, name_of_facility, address, city, state, zip
                     ] not in self.total_out:
                         self.total_out.append(
                             [
-                                type, name_of_facility, address, city, state, zip, climate_gross_sqft,
-                                climate_net_sqft,
-                                non_climate_gross_sqft, non_climate_net_sqft, gross_sqft, net_sqft, climate_5_5,
-                                non_climate_5_5, climate_5_10, non_climate_5_10, climate_10_10,
-                                non_climate_10_10,
-                                climate_10_15, non_climate_10_15, climate_10_20, non_climate_10_20
+                                type, name_of_facility, address, city, state, zip
                             ]
                         )
 
@@ -476,6 +509,14 @@ class scrapRadius():
         except:
             pass
 
+def date2str(dt, deliminter, order=0):
+    dt = str(dt).split(' ')[0].split('-')
+    if order == 0:
+        dateStr = dt[0] + deliminter + dt[1] + deliminter + dt[2]
+    else:
+        dateStr = dt[2] + deliminter + dt[1] + deliminter + dt[0]
+
+    return dateStr
 
 
 if __name__ == '__main__':
