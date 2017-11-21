@@ -139,14 +139,24 @@ class totalScraper():
     def startScraping(self):
         self.max_threads = 1
         self.threads = []
+        '''
+        while self.threads:
+            for thread in self.threads:
+                if not thread.is_alive():
+                    self.threads.remove(thread)
 
-        for i in range(self.max_threads):
-            scraper = onescraper(self.scrapModel, self.log_printer)
-            thread =  threading.Thread(target=scraper.one_scraping)
-            thread.setDaemon(True)
-            thread.start()
-            self.threads.append(thread)
-            time.sleep(1)
+            while len(self.threads) < self.max_threads:
+                thread = threading.Thread(target=self.makingScraper())
+                thread.setDaemon(True)
+                thread.start()
+                self.threads.append(thread)
+        '''
+
+        self.makingScraper()
+
+    def makingScraper(self):
+        scraper = onescraper(self.scrapModel, self.log_printer)
+        scraper.one_scraping()
 
 class onescraper():
     def __init__(self, scrapModel, log_printer):
@@ -161,7 +171,7 @@ class onescraper():
         self.passLogin()
 
         while(self.scrapModel.coordinates):
-            [x, y] = self.scrapModel.pop()
+            [x, y] = self.scrapModel.pop_coordinate()
             self.navigate_offset(x,y)
 
     def passLogin(self):
@@ -170,6 +180,7 @@ class onescraper():
             self.driver = webdriver.Chrome(executable_path=os.getcwd() + '/WebDriver/chromedriver.exe')
             self.driver.maximize_window()
             self.driver.get(self.url)
+            print(self.url)
             logTxt = "Success:\tGo to 'https://radius.unionrealtime.com/home'."
             self.log_printer.print_log(logTxt)
         except:
