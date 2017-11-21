@@ -1,3 +1,4 @@
+
 ############################## prerequisite #############################
 #
 #   website:    https://radius.unionrealtime.com/home
@@ -13,7 +14,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
-import threading, time, csv, xlrd, os, sys, platform, openpyxl
+import threading, time, csv, xlrd, os, sys, platform, openpyxl, asyncio
 from datetime import date, datetime
 
 
@@ -135,25 +136,39 @@ class totalScraper():
     def __init__(self):
         self.scrapModel = scrapModel()
         self.log_printer = log_printer()
+        self.scrapers = []
 
     def startScraping(self):
         self.max_threads = 1
         self.threads = []
-
-        while self.threads or self.scrapModel.coordinates:
+        '''
+        while self.threads:
             for thread in self.threads:
                 if not thread.is_alive():
                     self.threads.remove(thread)
 
-            while len(self.threads) < self.max_threads and self.scrapModel.coordinates:
-                thread = threading.Thread(target=self.makingScraper)
+            while len(self.threads) < self.max_threads:
+                thread = threading.Thread(target=self.makingScraper())
                 thread.setDaemon(True)
                 thread.start()
                 self.threads.append(thread)
 
-    def makingScraper(self):
+        self.makingScraper()
+        '''
+
+        loop = asyncio.get_event_loop()
+        tasks = [
+            asyncio.ensure_future(self.makingScraper()),
+            asyncio.ensure_future(self.makingScraper()),
+        ]
+
+        loop.run_until_complete(asyncio.wait(tasks))
+        loop.close()
+
+    async def makingScraper(self):
         scraper = onescraper(self.scrapModel, self.log_printer)
         scraper.one_scraping()
+
 
 class onescraper():
     def __init__(self, scrapModel, log_printer):
@@ -163,16 +178,15 @@ class onescraper():
         self.total_out = []
         self.scrapModel = scrapModel
         self.log_printer = log_printer
-        #self.one_scraping()
 
-    def one_scraping(self):
-        self.passLogin()
+    async def one_scraping(self):
+        await self.passLogin()
 
         while(self.scrapModel.coordinates):
             [x, y] = self.scrapModel.pop_coordinate()
-            self.navigate_offset(x,y)
+            await self.navigate_offset(x,y)
 
-    def passLogin(self):
+    async def passLogin(self):
 
         try:
             self.driver = webdriver.Chrome(executable_path=os.getcwd() + '/WebDriver/chromedriver.exe')
@@ -191,7 +205,9 @@ class onescraper():
                 EC.presence_of_all_elements_located((By.CSS_SELECTOR, "button.btn.btn-clear.btn-lg"))
             )
             signin_btns[1].click()
-            time.sleep(5)
+            #time.sleep(5)
+            await asyncio.sleep(5)
+
             logTxt = "Success:\tClicked SIGN IN button."
             self.log_printer.print_log(logTxt)
         except:
@@ -204,7 +220,8 @@ class onescraper():
                 EC.visibility_of_element_located((By.CSS_SELECTOR, "div.auth0-lock-cred-pane.auth0-lock-quiet"))
             )
 
-            time.sleep(5)
+            #time.sleep(5)
+            await asyncio.sleep(5)
 
             email_in = WebDriverWait(self.driver, 200).until(
                 EC.element_to_be_clickable((By.CSS_SELECTOR, "div.auth0-lock-input-email > div > input"))
@@ -213,7 +230,8 @@ class onescraper():
             action_chain = ActionChains(self.driver)
             action_chain.click(email_in).send_keys(self.email).perform()
 
-            time.sleep(5)
+            #time.sleep(5)
+            await asyncio.sleep(5)
 
             logTxt = "Success:\tPut email."
             self.log_printer.print_log(logTxt)
@@ -225,7 +243,8 @@ class onescraper():
             action_chain = ActionChains(self.driver)
             action_chain.click(pass_in).send_keys(self.password).perform()
 
-            time.sleep(3)
+            #time.sleep(3)
+            await asyncio.sleep(3)
 
             logTxt = "Success:\tPut password."
             self.log_printer.print_log(logTxt)
@@ -238,14 +257,15 @@ class onescraper():
 
             logTxt = "Success:\tClicked login button."
             self.log_printer.print_log(logTxt)
-            time.sleep(10)
+            #time.sleep(10)
+            await asyncio.sleep(10)
 
         except:
             logTxt = "Error:\tFailed to log in."
             self.log_printer.print_log(logTxt)
             exit(1)
 
-    def navigate_offset(self, x, y):
+    async def navigate_offset(self, x, y):
 
         logTxt = '\n###########################################################################################################################################################\n'
         self.log_printer.print_log(logTxt)
@@ -256,7 +276,8 @@ class onescraper():
                 EC.element_to_be_clickable((By.XPATH, "//*[@src='/assets/images/zo.png']"))
             )
             minus_btn.click()
-            time.sleep(2)
+            #time.sleep(2)
+            await asyncio.sleep(2)
 
             logTxt = 'Success:\tClicked minus button successfully.'
             self.log_printer.print_log(logTxt)
@@ -277,7 +298,8 @@ class onescraper():
 
             action_chain = ActionChains(self.driver)
             action_chain.move_to_element(radius_link).move_by_offset(x, y).click().perform()
-            time.sleep(2)
+            #time.sleep(2)
+            await asyncio.sleep(2)
 
             logTxt = 'Success:\tClicked ({}, {}).'.format(x,y)
             self.log_printer.print_log(logTxt)
@@ -325,7 +347,8 @@ class onescraper():
             )
 
             fullscreen_btn.click()
-            time.sleep(2)
+            #time.sleep(2)
+            await asyncio.sleep(2)
 
             logTxt = 'Success:\tClicked fullscreen button(2).'
             self.log_printer.print_log(logTxt)
