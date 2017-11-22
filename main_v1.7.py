@@ -83,7 +83,7 @@ class scrapModel():
                 self.coordinates.append([sheet_in.row(i)[2].value, sheet_in.row(i)[3].value])
                 #print([self.sheet_in.row(i)[2].value, self.sheet_in.row(i)[3].value])
 
-            self.coordinates.reverse()
+            #self.coordinates.reverse()
 
             logTxt = "Success:\tRead coordinates XLSX file successfully."
             self.log_printer.print_log(logTxt)
@@ -236,9 +236,10 @@ class onescraper():
 
             login_btn.click()
 
+            time.sleep(15)
+
             logTxt = "Success:\tClicked login button."
             self.log_printer.print_log(logTxt)
-            time.sleep(10)
 
         except:
             logTxt = "Error:\tFailed to log in."
@@ -252,7 +253,7 @@ class onescraper():
 
         try:
             # self.driver.delete_all_cookies()
-            minus_btn = WebDriverWait(self.driver, 50).until(
+            minus_btn = WebDriverWait(self.driver, 10).until(
                 EC.element_to_be_clickable((By.XPATH, "//*[@src='/assets/images/zo.png']"))
             )
             minus_btn.click()
@@ -264,6 +265,18 @@ class onescraper():
         except:
             logTxt = 'Error:\tFailed to click minus button successfully.'
             self.log_printer.print_log(logTxt)
+
+            try:
+                radius_btn = WebDriverWait(self.driver, 10).until(
+                    EC.element_to_be_clickable((By.CSS_SELECTOR, "button.md-primary.md-confirm-button.md-button.md-autofocus.md-ink-ripple.md-default-theme"))
+                )
+                radius_btn.click()
+                logTxt = 'Success:\tClicked radius button successfully.'
+                self.log_printer.print_log(logTxt)
+            except:
+                logTxt = 'Error:\tFailed to click radius button.'
+                self.log_printer.print_log(logTxt)
+
             self.scrapModel.add_coordinate([x,y])
             return
 
@@ -277,7 +290,7 @@ class onescraper():
 
             action_chain = ActionChains(self.driver)
             action_chain.move_to_element(radius_link).move_by_offset(x, y).click().perform()
-            time.sleep(2)
+            time.sleep(5)
 
             logTxt = 'Success:\tClicked ({}, {}).'.format(x,y)
             self.log_printer.print_log(logTxt)
@@ -298,6 +311,23 @@ class onescraper():
 
         time.sleep(1)
         '''
+
+        try:
+            zoomin_btn = WebDriverWait(self.driver, 50).until(
+                EC.element_to_be_clickable((By.XPATH, "//button[@title='Zoom in']"))
+            )
+
+            zoomin_btn.click()
+            time.sleep(2)
+
+            logTxt = 'Success:\tClicked zoom in button.'
+            self.log_printer.print_log(logTxt)
+
+        except:
+            logTxt = 'Error:\tFailed to click zoom in button.'
+            self.log_printer.print_log(logTxt)
+            self.scrapModel.add_coordinate([x, y])
+            return
 
         try:
             fullscreen_btn = WebDriverWait(self.driver, 50).until(
@@ -408,6 +438,7 @@ class onescraper():
                 self.log_printer.print_log(logTxt)
                 continue
 
+            main_window = self.driver.current_window_handle
             try:
                 action_chain = ActionChains(self.driver)
                 action_chain.move_to_element(marker).click(marker).perform()
@@ -417,6 +448,8 @@ class onescraper():
                 logTxt = "\t\tError:\tMarker is unable to be clicked."
                 self.log_printer.print_log(logTxt)
                 continue
+
+            self.driver.switch_to.window(main_window)
 
             try:
                 WebDriverWait(self.driver, 2).until(
@@ -613,7 +646,7 @@ class onescraper():
 class log_printer():
     def __init__(self):
         curTime = time.strftime("%d-%m-%Y_%H.%M.%S")
-        self.logFile_name = "Log_File_" + curTime + ".txt"
+        self.logFile_name = "Result/Log_File_" + curTime + ".txt"
         try:
             self.logFile = open(self.logFile_name, "w+")
             logTxt = "Log file created successfully!!!\n"
