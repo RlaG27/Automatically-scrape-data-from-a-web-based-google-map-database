@@ -1,0 +1,4745 @@
+Success:	Go to 'https://radius.unionrealtime.com/home'.
+Success:	Clicked SIGN IN button.
+Success:	Put email.
+Success:	Put password.
+Success:	Clicked login button.
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (750.0, 150.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	13 markers are found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Four Seasons Stor-All
+	804 West College Drive
+	Marshall
+	
+	
+	-
+	-
+	30,882
+	28,103
+	30,882
+	28,103
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 1
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Marshall Mini Storage
+	125 Marvin Schwan Memorial Drive
+	Marshall
+	
+	
+	-
+	-
+	9,640
+	8,773
+	9,640
+	8,773
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 2
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Four Seasons Stor-All-Marshall
+	900 U.S. 59
+	Marshall
+	
+	
+	-
+	-
+	67,818
+	61,714
+	67,818
+	61,714
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 3
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Southwest Mini Storage
+	309 East College Drive
+	Marshall
+	
+	
+	-
+	-
+	8,297
+	7,550
+	8,297
+	7,550
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 4
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Marshall Mini Storage
+	1410 South Saratoga Street
+	Marshall
+	
+	
+	-
+	-
+	41,069
+	37,373
+	41,069
+	37,373
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 5
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		This is 'Current' or 'New Supply', 'Selected' marker
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (750.0, 430.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	19 markers are found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	A & M Storage
+	700 East Hereford Lane
+	McAlester
+	
+	
+	-
+	-
+	28,093
+	25,564
+	28,093
+	25,564
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 6
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Browning's Mini Storage
+	1400 North Main Street
+	McAlester
+	
+	
+	-
+	-
+	98,212
+	89,373
+	98,212
+	89,373
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 7
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	A-Affordable Self Storage
+	1552 S Main St # B
+	McAlester
+	
+	
+	-
+	-
+	13,809
+	12,566
+	13,809
+	12,566
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 8
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Browning's Mini Storage
+	17 East Jefferson Avenue
+	McAlester
+	
+	
+	-
+	-
+	3,051
+	2,776
+	3,051
+	2,776
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 9
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Buffalo Mini Storage
+	1617 East Electric Avenue
+	McAlester
+	
+	
+	-
+	-
+	47,357
+	43,095
+	47,357
+	43,095
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 10
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	AAA Mini Storage
+	2500 North Main Street
+	McAlester
+	
+	
+	-
+	-
+	45,351
+	41,270
+	45,351
+	41,270
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 11
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		This is 'Current' or 'New Supply', 'Selected' marker
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (760.0, 370.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	19 markers are found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Hamilton Storage
+	911 58 Road
+	Independence
+	
+	
+	-
+	-
+	7,477
+	6,804
+	7,477
+	6,804
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 12
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Demo Storage
+	709 North 20th Street
+	Independence
+	
+	
+	-
+	-
+	3,027
+	2,755
+	3,027
+	2,755
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 13
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Indoor Storage Solutions LLC
+	1900 West Main Street B
+	Independence
+	
+	
+	-
+	-
+	6,477
+	5,894
+	6,477
+	5,894
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 14
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Kelley Self Storage
+	829 North Pennsylvania Avenue
+	Independence
+	
+	
+	-
+	-
+	13,683
+	12,451
+	13,683
+	12,451
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 15
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Indy Storage
+	1709 West Maple Street
+	Independence
+	
+	
+	-
+	-
+	10,328
+	9,398
+	10,328
+	9,398
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 16
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Big Hill Storage
+	South Olive Street
+	Cherryvale
+	
+	
+	-
+	-
+	13,083
+	11,905
+	13,083
+	11,905
+	-
+	-
+	-
+	$30
+	-
+	$40
+	-
+	$50
+	
+	
+
+	Total Count: 17
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Hugo's Mini Storage
+	2201 West Laurel Street
+	Independence
+	
+	
+	-
+	-
+	40,183
+	36,566
+	40,183
+	36,566
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 18
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	K & L Storage Units
+	2353 West Oak Street
+	Independence
+	
+	
+	-
+	-
+	12,420
+	11,302
+	12,420
+	11,302
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 19
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		This is 'Current' or 'New Supply', 'Selected' marker
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (760.0, 520.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	19 markers are found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Lone Star Secure Storage
+	4801 Texas 256 Loop
+	Palestine
+	
+	
+	22,242
+	16,014
+	24,076
+	21,909
+	46,318
+	37,923
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 20
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Security Storage
+	2003 Crockett Road
+	Palestine
+	
+	
+	-
+	-
+	-
+	$45
+	-
+	$65
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 21
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Aaa Mini Storage
+	500 Court Drive
+	Palestine
+	
+	
+	-
+	-
+	25,163
+	22,898
+	25,163
+	22,898
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 22
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Advantage Self Storage
+	3851 Texas 19
+	Palestine
+	
+	
+	-
+	-
+	94,812
+	86,279
+	94,812
+	86,279
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 23
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Crockett Road Mini Storage
+	2701 Crockett Road
+	Palestine
+	
+	
+	-
+	-
+	6,150
+	5,597
+	6,150
+	5,597
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 24
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Coleman Self Storage
+	615 East Newman Street
+	Palestine
+	
+	
+	-
+	-
+	14,076
+	12,809
+	14,076
+	12,809
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 25
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Security Storage
+	2903 West Oak Street
+	Palestine
+	
+	
+	3,927
+	2,828
+	18,944
+	17,239
+	22,871
+	20,067
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 26
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Northside Storage
+	2502 Texas 155
+	Palestine
+	
+	
+	-
+	-
+	11,075
+	10,079
+	11,075
+	10,079
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 27
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	StorMor Self Storage
+	4345 Texas 19
+	Palestine
+	
+	
+	-
+	-
+	14,007
+	12,746
+	14,007
+	12,746
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 28
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		This is 'Current' or 'New Supply', 'Selected' marker
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Error:	Failed to click minus button successfully.
+Success:	Clicked radius button successfully.
+
+###########################################################################################################################################################
+
+Error:	Failed to click minus button successfully.
+Success:	Clicked radius button successfully.
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (770.0, 210.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	11 markers are found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Right Size Storage
+	813 Flindt Drive
+	Storm Lake
+	
+	
+	-
+	-
+	27,148
+	24,704
+	27,148
+	24,704
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 29
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Merrill Manufacturing
+	1401-
+	1499 Michigan Street
+	Storm Lake
+	
+	-
+	-
+	5,712
+	5,198
+	5,712
+	5,198
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 30
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Storm Lake Truck & Trailer
+	1223 Iowa 7
+	Storm Lake
+	
+	
+	-
+	-
+	9,640
+	8,772
+	9,640
+	8,772
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 31
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Patriot Storage
+	406 South Main Street
+	Alta
+	
+	
+	-
+	-
+	2,119
+	1,928
+	2,119
+	1,928
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 32
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		This is 'Current' or 'New Supply', 'Selected' marker
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (770.0, 290.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (770.0, 370.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	15 markers are found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		This is 'Current' or 'New Supply', 'Selected' marker
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (780.0, 110.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	39 markers are found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	CRAG STORAGE
+	11480 10th St NE
+	Wright
+	
+	
+	-
+	-
+	18,841
+	17,145
+	18,841
+	17,145
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 33
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Keep It Safe
+	5458 Barthel Industrial Drive Northeast
+	Albertville
+	
+	
+	-
+	-
+	28,924
+	26,321
+	28,924
+	26,321
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 34
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Superior Storage
+	4011 Maciver Avenue Northeast
+	Saint Michael
+	
+	
+	-
+	-
+	12,404
+	11,288
+	12,404
+	11,288
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 35
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	
+	15930 Jarvis Street Northwest
+	Elk River
+	
+	
+	-
+	-
+	38,045
+	34,621
+	38,045
+	34,621
+	-
+	-
+	-
+	$50
+	-
+	$75
+	-
+	-
+	
+	
+
+	Total Count: 36
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Crag Mini Storage
+	15901 85th Street Northeast
+	Elk River
+	
+	
+	-
+	-
+	43,455
+	39,544
+	43,455
+	39,544
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 37
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Stan's Storage
+	6000 Labeaux Avenue Northeast
+	Albertville
+	
+	
+	-
+	-
+	15,055
+	13,700
+	15,055
+	13,700
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 38
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Store It All Mini Storage
+	15656 Edison Street Northwest
+	Elk River
+	
+	
+	-
+	-
+	12,298
+	11,191
+	12,298
+	11,191
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 39
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	St Michael Mini Storage
+	13095 43rd Street Northeast
+	Saint Michael
+	
+	
+	-
+	-
+	14,277
+	12,992
+	14,277
+	12,992
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 40
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Gopher State Mini-Storage LLC
+	18944 York Street Northwest
+	Elk River
+	
+	
+	-
+	-
+	17,160
+	15,616
+	17,160
+	15,616
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 41
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Pete's Mini Storage
+	11869 191 1/2 Avenue Northwest
+	Elk River
+	
+	
+	-
+	-
+	11,424
+	10,396
+	11,424
+	10,396
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 42
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Midwest Mini Storage
+	15930 Jarvis Street Northwest
+	Elk River
+	
+	
+	-
+	-
+	38,045
+	34,621
+	38,045
+	34,621
+	-
+	-
+	-
+	$50
+	-
+	$75
+	-
+	-
+	
+	
+
+	Total Count: 43
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		This is 'Current' or 'New Supply', 'Selected' marker
+	Success:	5 markers are found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		This is 'Current' or 'New Supply', 'Selected' marker
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (780.0, 520.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (790.0, 210.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (790.0, 240.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	83 markers are found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	StorageMart
+	1901 South Ankeny Boulevard
+	Ankeny
+	
+	
+	20,850
+	15,012
+	77,670
+	70,680
+	98,521
+	85,692
+	$55
+	$38
+	$117
+	$63
+	$127
+	$90
+	$144
+	$107
+	
+	
+
+	Total Count: 44
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Ankeny Mini Storage
+	705 Southeast Dalbey Drive
+	Ankeny
+	
+	
+	-
+	-
+	56,328
+	51,258
+	56,328
+	51,258
+	-
+	-
+	-
+	$50
+	-
+	$86
+	-
+	$96
+	
+	
+
+	Total Count: 45
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	StorageMart
+	205 Southeast Delaware Avenue
+	Ankeny
+	
+	
+	13,010
+	9,367
+	29,028
+	26,416
+	42,039
+	35,783
+	-
+	-
+	-
+	$74
+	$128
+	$93
+	$140
+	$112
+	
+	
+
+	Total Count: 46
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	All Seasons Storage
+	201 North 3rd Street C
+	Polk City
+	
+	
+	-
+	-
+	15,019
+	13,668
+	15,019
+	13,668
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 47
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Linden St. Storage
+	206 Southwest Linden Street
+	Ankeny
+	
+	
+	-
+	-
+	3,783
+	3,443
+	3,783
+	3,443
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 48
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	STORE IT YOURSELF
+	2722 SE Pdi Pl
+	Polk
+	
+	
+	-
+	-
+	34,740
+	31,613
+	34,740
+	31,613
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 49
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Lakeside Storage Units
+	1905 South 14th Street
+	Polk City
+	
+	
+	-
+	-
+	51,281
+	46,666
+	51,281
+	46,666
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 50
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Ankeny Sudzees Mini Storage
+	1517 South Ankeny Boulevard
+	Ankeny
+	
+	
+	-
+	-
+	31,252
+	28,439
+	31,252
+	28,439
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 51
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	StorageMart
+	205 Southwest Irvinedale Drive
+	Ankeny
+	
+	
+	22,914
+	16,498
+	23,061
+	20,985
+	45,975
+	37,483
+	-
+	-
+	$113
+	-
+	$127
+	-
+	$144
+	-
+	
+	
+
+	Total Count: 52
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Error: Error happened in validating marker.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		This is 'Current' or 'New Supply', 'Selected' marker
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (810.0, 170.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (810.0, 200.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (810.0, 320.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (810.0, 400.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (810.0, 480.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	13 markers are found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		This is 'Current' or 'New Supply', 'Selected' marker
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (810.0, 520.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	21 markers are found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Bayou Mini Storage
+	515 Fairgrounds Road # 4
+	Natchitoches
+	
+	
+	-
+	-
+	4,276
+	3,891
+	4,276
+	3,891
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 53
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Cane River Storage LLC
+	204 Rapides Drive
+	Natchitoches
+	
+	
+	-
+	-
+	20,741
+	18,874
+	20,741
+	18,874
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 54
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	C S & M Storage
+	100 Hazel Street
+	Natchitoches
+	
+	
+	-
+	-
+	20,892
+	19,011
+	20,892
+	19,011
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 55
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Manning Mini Storage
+	1516 Keyser Avenue
+	Natchitoches
+	
+	
+	-
+	-
+	51,470
+	46,837
+	51,470
+	46,837
+	-
+	-
+	-
+	$35
+	-
+	$50
+	-
+	$60
+	
+	
+
+	Total Count: 56
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Keep Safe Storage
+	5841 Highway 1 Byp
+	Natchitoches
+	
+	
+	57,400
+	41,328
+	22,571
+	20,539
+	79,970
+	61,867
+	$30
+	$25
+	$55
+	$30
+	$90
+	$43
+	$115
+	$100
+	
+	
+
+	Total Count: 57
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Cedar Grove RV & Boat Storage
+	907 Louisiana 494
+	Natchitoches
+	
+	
+	-
+	-
+	23,543
+	21,424
+	23,543
+	21,424
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 58
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Burke Mini Storage
+	122 Touline Street
+	Natchitoches
+	
+	
+	-
+	-
+	18,328
+	16,679
+	18,328
+	16,679
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 59
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Campti Storage
+	Edenborn Street
+	Campti
+	
+	
+	-
+	-
+	3,803
+	3,461
+	3,803
+	3,461
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 60
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Chandlers Camp
+	5779 Louisiana 9
+	Creston
+	
+	
+	-
+	-
+	4,858
+	4,420
+	4,858
+	4,420
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 61
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		This is 'Current' or 'New Supply', 'Selected' marker
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (820.0, 160.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	13 markers are found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Steele County Storage
+	1885 4th Avenue Southeast
+	Owatonna
+	
+	
+	-
+	-
+	12,852
+	11,695
+	12,852
+	11,695
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 62
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Self Storage of Owatonna
+	1176 East Frontage Road #1
+	Owatonna
+	
+	
+	-
+	-
+	4,198
+	3,820
+	4,198
+	3,820
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 63
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	All Seasons Storage
+	670 24th Avenue Northwest
+	Owatonna
+	
+	
+	43,337
+	31,202
+	10,830
+	9,856
+	54,167
+	41,058
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 64
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Owatonna Self Storage
+	3103 Hoffman Drive Northwest
+	Owatonna
+	
+	
+	-
+	-
+	39,126
+	35,605
+	39,126
+	35,605
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 65
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Gallea Transfer & Storage, Inc.
+	4500 North County Road 45
+	Owatonna
+	
+	
+	-
+	-
+	4,774
+	4,344
+	4,774
+	4,344
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 66
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		This is 'Current' or 'New Supply', 'Selected' marker
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (820.0, 230.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	27 markers are found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	B & B Mini Storage
+	305 West High Street
+	Marshalltown
+	
+	
+	-
+	-
+	14,881
+	13,541
+	14,881
+	13,541
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 67
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	K & T Storage
+	300 East George Street
+	Albion
+	
+	
+	-
+	-
+	7,020
+	6,388
+	7,020
+	6,388
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 68
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Highland Storage
+	102 3rd Avenue Northwest
+	State Center
+	
+	
+	-
+	-
+	4,576
+	4,164
+	4,576
+	4,164
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 69
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Mid Iowa Mini Storage
+	112 East Church Street
+	Marshalltown
+	
+	
+	-
+	-
+	17,150
+	15,607
+	17,150
+	15,607
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 70
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Country Properties Mini
+	3201 South 12th Street
+	Marshalltown
+	
+	
+	-
+	-
+	45,119
+	41,059
+	45,119
+	41,059
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 71
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Country Properties Storage
+	2003 South Center Street # B
+	Marshalltown
+	
+	
+	-
+	-
+	13,250
+	12,058
+	13,250
+	12,058
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 72
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	V & V Storage At Home Rental Center
+	603 South 6th Street
+	Marshalltown
+	
+	
+	-
+	-
+	9,571
+	8,710
+	9,571
+	8,710
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 73
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Twelfth Avenue Storage
+	1308 South 12th Avenue
+	Marshalltown
+	
+	
+	-
+	-
+	10,714
+	9,749
+	10,714
+	9,749
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 74
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		This is 'Current' or 'New Supply', 'Selected' marker
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (820.0, 430.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	113 markers are found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Budget Mini Storage
+	4716 Baseline Road
+	Little Rock
+	
+	
+	-
+	-
+	24,990
+	22,741
+	24,990
+	22,741
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 75
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Dixon Road Security Storage
+	910 West Dixon Road
+	Little Rock
+	
+	
+	-
+	-
+	13,818
+	12,574
+	13,818
+	12,574
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 76
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	The Storage Place
+	4607 Hoffman Road
+	Little Rock
+	
+	
+	-
+	-
+	18,980
+	17,272
+	18,980
+	17,272
+	-
+	-
+	-
+	$42
+	-
+	$73
+	-
+	$93
+	
+	
+
+	Total Count: 77
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	REGIONAL STORE & LOCK
+	7500 Baseline Rd
+	Tarrant
+	
+	
+	-
+	-
+	5,707
+	5,194
+	5,707
+	5,194
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 78
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	U-Haul Storage at Baseline Road
+	8900 Geyer Springs Road
+	Little Rock
+	
+	
+	51,911
+	37,376
+	-
+	-
+	51,911
+	37,376
+	$52
+	-
+	$75
+	-
+	$94
+	-
+	$123
+	-
+	
+	
+
+	Total Count: 79
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Baseline Shelley Self Storage
+	8711 Shelley Drive
+	Little Rock
+	
+	
+	-
+	-
+	9,438
+	8,588
+	9,438
+	8,588
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 80
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Container and Storage of Arkansas
+	5016 Asher Avenue
+	Little Rock
+	
+	
+	-
+	-
+	3,557
+	3,237
+	3,557
+	3,237
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 81
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	U-Haul Moving & Storage at Colonel Glenn
+	6300 Colonel Glenn Road
+	Little Rock
+	
+	
+	16,798
+	12,094
+	68,000
+	61,880
+	84,797
+	73,974
+	-
+	$50
+	-
+	$52
+	-
+	$82
+	-
+	$105
+	
+	
+
+	Total Count: 82
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	Baseline Doyle Springs Road
+	8801 Doyle Springs Road
+	Little Rock
+	
+	
+	-
+	-
+	10,146
+	9,232
+	10,146
+	9,232
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 83
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	U-Haul Moving & Storage at 65th St & Geyer Springs
+	6501 Geyer Springs Road
+	Little Rock
+	
+	
+	37,636
+	27,098
+	906
+	824
+	38,542
+	27,922
+	$51
+	$45
+	$74
+	$70
+	$100
+	$94
+	-
+	-
+	
+	
+
+	Total Count: 84
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	All Secure Storage
+	7500 Mabelvale Cut Off Road
+	Little Rock
+	
+	
+	-
+	-
+	20,738
+	18,872
+	20,738
+	18,872
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 85
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	A-AAAKey Mini Storage
+	6117 West 65th Street
+	Little Rock
+	
+	
+	-
+	-
+	86,456
+	78,675
+	86,456
+	78,675
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 86
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		This is 'Current' or 'New Supply', 'Selected' marker
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Error:	Failed to click minus button successfully.
+Success:	Clicked radius button successfully.
+
+###########################################################################################################################################################
+
+Error:	Failed to click minus button successfully.
+Success:	Clicked radius button successfully.
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (830.0, 250.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (830.0, 260.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	33 markers are found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	HPT Stores-All
+	212 East Maple Avenue
+	Ottumwa
+	
+	
+	-
+	-
+	5,102
+	4,643
+	5,102
+	4,643
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 87
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		This is 'Current' or 'New Supply', 'Selected' marker
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Error:	Failed to click minus button successfully.
+Success:	Clicked radius button successfully.
+
+###########################################################################################################################################################
+
+Error:	Failed to click minus button successfully.
+Success:	Clicked radius button successfully.
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (830.0, 480.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	15 markers are found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		This is 'Current' or 'New Supply', 'Selected' marker
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Error:	Failed to click minus button successfully.
+Success:	Clicked radius button successfully.
+
+###########################################################################################################################################################
+
+Error:	Failed to click minus button successfully.
+Success:	Clicked radius button successfully.
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (850.0, 170.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	9 markers are found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		This is 'Current' or 'New Supply', 'Selected' marker
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Error:	Failed to click minus button successfully.
+Error:	Failed to click radius button.
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (850.0, 410.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	21 markers are found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	Current
+	U-Store-It
+	1366 Harrison Street
+	Batesville
+	
+	
+	-
+	-
+	24,905
+	22,664
+	24,905
+	22,664
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	Total Count: 88
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Sucess:	Marker overflow message is found.
+		Sucess:	Scraped data from marker overflow message.
+	This marker was found before
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		This is 'Current' or 'New Supply', 'Selected' marker
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+
+###########################################################################################################################################################
+
+Error:	Failed to click minus button successfully.
+Success:	Clicked radius button successfully.
+
+###########################################################################################################################################################
+
+Error:	Failed to click minus button successfully.
+Success:	Clicked radius button successfully.
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully.
+Success:	Clicked (860.0, 170.0).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+	Success:	33 markers are found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.
+		Error:	Marker overflow message is not found.
+	-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+		Success:	Marker is clicked.

@@ -83,7 +83,7 @@ class scrapModel():
                 self.coordinates.append([sheet_in.row(i)[2].value, sheet_in.row(i)[3].value])
                 #print([self.sheet_in.row(i)[2].value, self.sheet_in.row(i)[3].value])
 
-            #self.coordinates.reverse()
+            self.coordinates.reverse()
 
             logTxt = "Success:\tRead coordinates XLSX file successfully."
             self.log_printer.print_log(logTxt)
@@ -137,7 +137,7 @@ class totalScraper():
         self.log_printer = log_printer()
 
     def startScraping(self):
-        self.max_threads = 1
+        self.max_threads = 2
         self.threads = []
 
         while self.threads or self.scrapModel.coordinates:
@@ -349,6 +349,8 @@ class onescraper():
         self.marker_search('red')
         self.marker_search('blue')
 
+        self.log_printer.print_coord(x,y)
+
         try:
             fullscreen_btn = WebDriverWait(self.driver, 50).until(
                 EC.element_to_be_clickable((By.XPATH, "//div[@class='gm-style']/button"))
@@ -399,7 +401,7 @@ class onescraper():
             self.log_printer.print_log(logTxt)
 
         except:
-            logTxt = '\tError:\t{} No markers are found.'.format(len(new_markers))
+            logTxt = '\tError:\t{} No markers are found.'
             self.log_printer.print_log(logTxt)
             return
 
@@ -421,6 +423,7 @@ class onescraper():
                     self.log_printer.print_log(logTxt)
                     continue
 
+                '''
                 style_txt = parent_of_marker.get_attribute('style')
                 import re
                 regex = r"left: ([\d-]+)px; top: ([\d-]+)px"
@@ -433,6 +436,7 @@ class onescraper():
                     logTxt = "\t\tThis is marker out of screen."
                     self.log_printer.print_log(logTxt)
                     continue
+                '''
             except:
                 logTxt = '\t\tError: Error happened in validating marker.'
                 self.log_printer.print_log(logTxt)
@@ -647,8 +651,10 @@ class log_printer():
     def __init__(self):
         curTime = time.strftime("%d-%m-%Y_%H.%M.%S")
         self.logFile_name = "Result/Log_File_" + curTime + ".txt"
+        self.scraped_coord_name = "Result/Scraped_coord" + curTime + ".txt"
         try:
             self.logFile = open(self.logFile_name, "w+")
+            self.scraped_coord = open(self.scraped_coord_name, "w+")
             logTxt = "Log file created successfully!!!\n"
             print(logTxt)
         except:
@@ -659,6 +665,12 @@ class log_printer():
     def print_log(self, logTxt):
         self.logFile.write(logTxt + '\n')
         self.logFile.flush()
+        print(logTxt + '\n')
+
+    def print_coord(self, x, y):
+        logTxt= "({}, {})".format(x,y)
+        self.scraped_coord.write(logTxt + '\n')
+        self.scraped_coord.flush()
         print(logTxt + '\n')
 
     def close_log(self):
