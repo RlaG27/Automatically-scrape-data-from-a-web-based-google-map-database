@@ -138,9 +138,9 @@ class scrapRadius():
             EC.visibility_of_element_located((By.CSS_SELECTOR, "li#radius-link"))
         )
 
-        for x_i in range(11, 190):
+        for x_i in range(11, 122):
             x = x_i * 10
-            for y_i in range(78):
+            for y_i in range(70):
                 y = y_i * 10
 
                 if [x, y] not in self.coordinate:
