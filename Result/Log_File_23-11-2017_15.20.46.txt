@@ -1,0 +1,60 @@
+Success:	Go to 'https://radius.unionrealtime.com/home'.
+Success:	Go to 'https://radius.unionrealtime.com/home'.
+Success:	Clicked SIGN IN button.
+Success:	Clicked SIGN IN button.
+Success:	Put email.
+Success:	Put email.
+Success:	Put password.
+Success:	Put password.
+Success:	Clicked login button.
+Success:	Clicked login button.
+
+###########################################################################################################################################################
+
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully
+Success:	Clicked minus button successfully
+Success:	Go into (110.0, 30.0) successfully
+Success:	Go into 'Port Angeles, WA' successfully
+Success:	Go into (110.0, 50.0) successfully
+Success:	Go into 'Aberdeen, WA' successfully
+Success:	Clicked facility button
+Success:	Clicked facility button
+Success:	Clicked zoom in button.
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
+Success:	Clicked fullscreen button(1).
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+	Success:	1 markers are found.
+	Only 1 marker is found, so skipped.
+Success:	Clicked fullscreen button(2).
+Success:	Clicked fullscreen button(2).
+Success:	Clicked favorite button
+
+###########################################################################################################################################################
+
+Success:	Clicked favorite button
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully
+Success:	Clicked minus button successfully
+Error:	Clicked (110.0, 200.0), but can't go in more depth
+Success:	Clicked minus button successfully
+Success:	Go into (110.0, 180.0) successfully
+Success:	Go into 'Coos Bay, OR' successfully
+Success:	Clicked facility button
+Success:	Go into (110.0, 210.0) successfully
+Success:	Go into 'Brookings, OR' successfully
+Success:	Clicked zoom in button.
+Success:	Clicked facility button
+Success:	Clicked fullscreen button(1).
+Success:	Clicked zoom in button.
+Success:	Clicked fullscreen button(1).
