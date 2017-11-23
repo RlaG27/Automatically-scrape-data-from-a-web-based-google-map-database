@@ -13,6 +13,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import WebDriverException
 import threading, time, csv, xlrd, os, sys, platform, openpyxl
 from datetime import date, datetime
 
@@ -70,7 +71,7 @@ class scrapModel():
 
         ''' Read Coordinates XLSX file '''
         try:
-            in_coor_name = 'Data/coordinates.xlsx'
+            in_coor_name = 'Data/coordinates_filtered.xlsx'
             xfile_in = xlrd.open_workbook(in_coor_name)
             sheet_in = xfile_in.sheet_by_index(0)
 
@@ -78,7 +79,7 @@ class scrapModel():
                 if i == 0:
                     continue
 
-                self.coordinates.append([sheet_in.row(i)[2].value, sheet_in.row(i)[3].value])
+                self.coordinates.append([sheet_in.row(i)[1].value, sheet_in.row(i)[2].value])
                 #print([self.out_sheet_in.row(i)[2].value, self.out_sheet_in.row(i)[3].value])
 
             self.coordinates.reverse()
@@ -135,7 +136,7 @@ class totalScraper():
         self.log_printer = log_printer()
 
     def startScraping(self):
-        self.max_threads = 2
+        self.max_threads = 1
         self.threads = []
 
         while self.threads or self.scrapModel.coordinates:
@@ -246,13 +247,11 @@ class onescraper():
 
     def search_coordinates(self):
         self.total_coord_cnt = 0
-        self.radius_link = WebDriverWait(self.driver, 50).until(
-            EC.visibility_of_element_located((By.CSS_SELECTOR, "li#radius-link"))
-        )
 
-        for x_i in range(11, 122):
+
+        for x_i in range(11, 126):
             x = x_i * 10
-            for y_i in range(70):
+            for y_i in range(73):
                 y = y_i * 10
                 self.check_polygones(x, y)
 
@@ -266,6 +265,7 @@ class onescraper():
 
         action_chain = ActionChains(self.driver)
         action_chain.move_to_element(self.radius_link).move_by_offset(x, y).perform()
+
         #print('Moved to : ({}, {})'.format(x, y))
 
         try:
@@ -293,6 +293,7 @@ class onescraper():
 
     def navigate_offset(self, x, y):
 
+        [x, y] = [660, 420]
         logTxt = '\n###########################################################################################################################################################\n'
         self.log_printer.print_log(logTxt)
 
@@ -421,8 +422,7 @@ class onescraper():
                     (By.XPATH, "//img[@src='//cdn.rawgit.com/mahnunchik/markerclustererplus/master/images/m3.png']"))
             )
 
-            return
-
+            wheel_element(strange_markers, 50, 0, 0)
         except:
             pass
 
@@ -730,9 +730,31 @@ def date2str(dt, deliminter, order=0):
 
     return dateStr
 
+def wheel_element(element, deltaY=120, offsetX=0, offsetY=0):
+    error = element._parent.execute_script("""
+    var element = arguments[0];
+    var deltaY = arguments[1];
+    var box = element.getBoundingClientRect();
+    var clientX = box.left + (arguments[2] || box.width / 2);
+    var clientY = box.top + (arguments[3] || box.height / 2);
+    var target = element.ownerDocument.elementFromPoint(clientX, clientY);
+
+    for (var e = target; e; e = e.parentElement) {
+      if (e === element) {
+        target.dispatchEvent(new MouseEvent('mouseover', {view: window, bubbles: true, cancelable: true, clientX: clientX, clientY: clientY}));
+        target.dispatchEvent(new MouseEvent('mousemove', {view: window, bubbles: true, cancelable: true, clientX: clientX, clientY: clientY}));
+        target.dispatchEvent(new WheelEvent('wheel',     {view: window, bubbles: true, cancelable: true, clientX: clientX, clientY: clientY, deltaY: deltaY}));
+        return;
+      }
+    }    
+    return "Element is not interactable";
+    """, element, deltaY, offsetX, offsetY)
+    if error:
+        raise WebDriverException(error)
+
 if __name__ == '__main__':
-    #app = totalScraper()
-    #app.startScraping()
-    app = onescraper(scrapModel(), log_printer())
-    app.passLogin()
-    app.search_coordinates()
+    app = totalScraper()
+    app.startScraping()
+    #app = onescraper(scrapModel(), log_printer())
+    #app.passLogin()
+    #app.search_coordinates()
