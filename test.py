@@ -6,6 +6,9 @@ for key, value in pairs:
          d[key] = []
     d[key].append(value)
 
+keys = list(d.keys())
+keys.reverse()
+print(d[keys.pop()][0])
 print(d)
 
 import random
@@ -21,4 +24,5 @@ for i, row in enumerate(pairs):
 
 
 import statistics
-print(statistics.median_low(pairs))
+#print(statistics.median_low(pairs))
+print(sorted(pairs))

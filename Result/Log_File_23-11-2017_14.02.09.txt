@@ -1,0 +1,15 @@
+Success:	Go to 'https://radius.unionrealtime.com/home'.
+Success:	Clicked SIGN IN button.
+Success:	Put email.
+Success:	Put password.
+Success:	Clicked login button.
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully
+Success:	Clicked (110.0, 30.0)
+Error:	Clicked (110.0, 30.0), but can't go in more depth
+Success:	Clicked minus button successfully
+Success:	Clicked (110.0, 40.0)
+Error:	Clicked (110.0, 40.0), but can't go in more depth
+Success:	Clicked minus button successfully

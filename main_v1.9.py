@@ -1,3 +1,4 @@
+
 ############################## prerequisite #############################
 #
 #   website:    https://radius.unionrealtime.com/home
@@ -13,6 +14,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import WebDriverException
 import threading, time, csv, xlrd, os, sys, platform, openpyxl
 from datetime import date, datetime
 
@@ -24,7 +26,7 @@ class scrapModel():
         self.url = 'https://radius.unionrealtime.com/home'
         self.email = 'TuckerCapitalGroup@gmail.com'
         self.password = '2bstronger'
-        self.coordinates = []
+        self.coordinates = {}
         self.total_out = []
         self.total_cnt = 0
         self.log_printer = log_printer()
@@ -78,10 +80,16 @@ class scrapModel():
                 if i == 0:
                     continue
 
-                self.coordinates.append([sheet_in.row(i)[2].value, sheet_in.row(i)[3].value])
+                #self.coordinates.append([sheet_in.row(i)[1].value, sheet_in.row(i)[2].value])
                 #print([self.out_sheet_in.row(i)[2].value, self.out_sheet_in.row(i)[3].value])
 
-            self.coordinates.reverse()
+                if sheet_in.row(i)[0].value not in self.coordinates:
+                    self.coordinates[sheet_in.row(i)[0].value] = []
+
+                self.coordinates[sheet_in.row(i)[0].value].append([sheet_in.row(i)[2].value, sheet_in.row(i)[3].value])
+
+            self.locations = list(self.coordinates.keys())
+            self.locations.reverse()
 
             logTxt = "Success:\tRead coordinates XLSX file successfully."
             self.log_printer.print_log(logTxt)
@@ -91,18 +99,19 @@ class scrapModel():
             self.log_printer.print_log(logTxt)
             exit(1)
 
-    def pop_coordinate(self):
+    def pop_location(self):
         try:
-            coord = self.coordinates.pop()
-            return coord
+            location = self.locations.pop()
+            return location
         except:
             logTxt = "Coordinates are empty."
             self.log_printer.print_log(logTxt)
             return None
 
-    def add_coordinate(self, coord):
+    def add_location(self, location):
         try:
-            self.coordinates = [coord] + self.coordinates
+            self.locations = [location] + self.locations
+
         except:
             logTxt = "Failed to add coordinate."
             self.log_printer.print_log(logTxt)
@@ -135,7 +144,7 @@ class totalScraper():
         self.log_printer = log_printer()
 
     def startScraping(self):
-        self.max_threads = 2
+        self.max_threads = 1
         self.threads = []
 
         while self.threads or self.scrapModel.coordinates:
@@ -167,8 +176,8 @@ class onescraper():
         self.passLogin()
 
         while(self.scrapModel.coordinates):
-            [x, y] = self.scrapModel.pop_coordinate()
-            self.navigate_offset(x,y)
+            location = self.scrapModel.pop_location()
+            self.navigate_offset(location)
 
     def passLogin(self):
 
@@ -246,9 +255,7 @@ class onescraper():
 
     def search_coordinates(self):
         self.total_coord_cnt = 0
-        self.radius_link = WebDriverWait(self.driver, 50).until(
-            EC.visibility_of_element_located((By.CSS_SELECTOR, "li#radius-link"))
-        )
+
 
         for x_i in range(11, 126):
             x = x_i * 10
@@ -266,6 +273,7 @@ class onescraper():
 
         action_chain = ActionChains(self.driver)
         action_chain.move_to_element(self.radius_link).move_by_offset(x, y).perform()
+
         #print('Moved to : ({}, {})'.format(x, y))
 
         try:
@@ -291,59 +299,94 @@ class onescraper():
         except:
             pass
 
-    def navigate_offset(self, x, y):
+    def navigate_offset(self, location):
+
+        radius_link = WebDriverWait(self.driver, 50).until(
+            EC.visibility_of_element_located((By.CSS_SELECTOR, "li#radius-link"))
+        )
 
         logTxt = '\n###########################################################################################################################################################\n'
         self.log_printer.print_log(logTxt)
 
-        try:
-            # self.driver.delete_all_cookies()
-            minus_btn = WebDriverWait(self.driver, 10).until(
-                EC.element_to_be_clickable((By.XPATH, "//*[@src='/assets/images/zo.png']"))
-            )
-            minus_btn.click()
-            time.sleep(2)
-
-            logTxt = 'Success:\tClicked minus button successfully.'
-            self.log_printer.print_log(logTxt)
-
-        except:
-            logTxt = 'Error:\tFailed to click minus button successfully.'
-            self.log_printer.print_log(logTxt)
+        clicked_flag = False
+        for [x, y] in self.scrapModel.coordinates[location]:
 
             try:
-                radius_btn = WebDriverWait(self.driver, 10).until(
-                    EC.element_to_be_clickable((By.CSS_SELECTOR, "button.md-primary.md-confirm-button.md-button.md-autofocus.md-ink-ripple.md-default-theme"))
+                # self.driver.delete_all_cookies()
+                minus_btn = WebDriverWait(self.driver, 10).until(
+                    EC.element_to_be_clickable((By.XPATH, "//*[@src='/assets/images/zo.png']"))
                 )
-                radius_btn.click()
-                logTxt = 'Success:\tClicked radius button successfully.'
+                minus_btn.click()
+                time.sleep(2)
+
+                logTxt = 'Success:\tClicked minus button successfully'
                 self.log_printer.print_log(logTxt)
+
             except:
-                logTxt = 'Error:\tFailed to click radius button.'
+                logTxt = 'Error:\tFailed to click minus button successfully'
                 self.log_printer.print_log(logTxt)
 
-            self.scrapModel.add_coordinate([x,y])
-            return
+                try:
+                    radius_btn = WebDriverWait(self.driver, 10).until(
+                        EC.element_to_be_clickable((By.CSS_SELECTOR, "button.md-primary.md-confirm-button.md-button.md-autofocus.md-ink-ripple.md-default-theme"))
+                    )
+                    radius_btn.click()
+                    logTxt = 'Success:\tClicked radius button successfully'
+                    self.log_printer.print_log(logTxt)
+                except:
+                    logTxt = 'Error:\tFailed to click radius button'
+                    self.log_printer.print_log(logTxt)
+
+                #self.scrapModel.add_location([x,y])
+                continue
 
 
-        try:
-            radius_link = WebDriverWait(self.driver, 50).until(
-                EC.visibility_of_element_located((By.CSS_SELECTOR, "li#radius-link"))
-            )
+            try:
+                action_chain = ActionChains(self.driver)
+                action_chain.move_to_element(radius_link).move_by_offset(x, y).perform()
 
-            # radius_link.click()
+                overflow_msg = WebDriverWait(self.driver, 1).until(
+                    EC.visibility_of_element_located((By.CLASS_NAME, "gm-style-iw"))
+                )
 
-            action_chain = ActionChains(self.driver)
-            action_chain.move_to_element(radius_link).move_by_offset(x, y).click().perform()
-            time.sleep(5)
+                overflow_msg_txt = overflow_msg.text.strip().split('\n')
 
-            logTxt = 'Success:\tClicked ({}, {}).'.format(x,y)
+                if overflow_msg_txt[0] == location:
+
+                    minus_btn = WebDriverWait(self.driver, 10).until(
+                        EC.element_to_be_clickable((By.XPATH, "//*[@src='/assets/images/zo.png']"))
+                    )
+                    minus_btn.click()
+                    time.sleep(2)
+
+                    action_chain = ActionChains(self.driver)
+                    action_chain.move_to_element(radius_link).move_by_offset(x, y).click().perform()
+                    time.sleep(5)
+
+                    logTxt = 'Success:\tGo into ({}, {}) successfully'.format(x, y)
+                    self.log_printer.print_log(logTxt)
+                    clicked_flag = True
+                    break
+
+                else:
+                    logTxt = "Error:\tClicked ({}, {}), but can't go in more depth".format(x, y)
+                    self.log_printer.print_log(logTxt)
+                    continue
+
+            except:
+                logTxt = 'Error:\tFailed to click ({}, {}).'.format(x, y)
+                self.log_printer.print_log(logTxt)
+                #self.scrapModel.add_location([x, y])
+                continue
+
+        if clicked_flag:
+            logTxt = "Success:\tGo into '{}' successfully".format(location)
             self.log_printer.print_log(logTxt)
-
-        except:
-            logTxt = 'Error:\tFailed to click ({}, {}).'.format(x, y)
+            self.scrapModel.add_location(location)
+        else:
+            logTxt = "Error:\tCan't go into '{}'".format(location)
             self.log_printer.print_log(logTxt)
-            self.scrapModel.add_coordinate([x, y])
+            self.scrapModel.add_location(location)
             return
 
 
@@ -371,7 +414,7 @@ class onescraper():
         except:
             logTxt = 'Error:\tFailed to click zoom in button.'
             self.log_printer.print_log(logTxt)
-            self.scrapModel.add_coordinate([x, y])
+            self.scrapModel.add_location([x, y])
             return
 
         try:
@@ -388,7 +431,7 @@ class onescraper():
         except:
             logTxt = 'Error:\tFailed to click fullscreen button(1).'
             self.log_printer.print_log(logTxt)
-            self.scrapModel.add_coordinate([x, y])
+            self.scrapModel.add_location([x, y])
             return
 
         self.marker_search('red')
@@ -410,32 +453,49 @@ class onescraper():
         except:
             logTxt = 'Error:\tFailed to click fullscreen button(2).'
             self.log_printer.print_log(logTxt)
-            self.scrapModel.add_coordinate([x, y])
+            self.scrapModel.add_location([x, y])
             return
 
     def marker_search(self, _type):
 
-        try:
-            strange_markers = WebDriverWait(self.driver, 5).until(
-                EC.presence_of_element_located(
-                    (By.XPATH, "//img[@src='//cdn.rawgit.com/mahnunchik/markerclustererplus/master/images/m3.png']"))
-            )
+        strange_flag = True
+        zoom_in_try = 0
+        while strange_flag:
+            try:
+                red_strange_markers = WebDriverWait(self.driver, 5).until(
+                    EC.presence_of_element_located(
+                        (By.XPATH, "//img[@src='//cdn.rawgit.com/mahnunchik/markerclustererplus/master/images/m3.png']"))
+                )
 
-            return
+                blue_strange_markers = WebDriverWait(self.driver, 5).until(
+                    EC.presence_of_element_located(
+                        (
+                        By.XPATH, "//img[@src='//cdn.rawgit.com/mahnunchik/markerclustererplus/master/images/m1.png']"))
+                )
+                strange_flag = True
 
-        except:
-            pass
+            except:
+                strange_flag = False
 
-        try:
-            strange_markers = WebDriverWait(self.driver, 5).until(
-                EC.presence_of_element_located(
-                    (By.XPATH, "//img[@src='//cdn.rawgit.com/mahnunchik/markerclustererplus/master/images/m1.png']"))
-            )
+            if zoom_in_try > 3:
+                return
+            if strange_flag:
+                zoom_in_try += 1
+                try:
+                    zoomin_btn = WebDriverWait(self.driver, 50).until(
+                        EC.element_to_be_clickable((By.XPATH, "//button[@title='Zoom in']"))
+                    )
 
-            return
+                    zoomin_btn.click()
+                    time.sleep(2)
 
-        except:
-            pass
+                    logTxt = 'Success:\tClicked zoom in button.'
+                    self.log_printer.print_log(logTxt)
+
+                except:
+                    logTxt = 'Error:\tFailed to click zoom in button.'
+                    self.log_printer.print_log(logTxt)
+                    self.scrapModel.add_coordinate([x, y])
 
         try:
             new_markers = WebDriverWait(self.driver, 10).until(
@@ -730,9 +790,31 @@ def date2str(dt, deliminter, order=0):
 
     return dateStr
 
+def wheel_element(element, deltaY=120, offsetX=0, offsetY=0):
+    error = element._parent.execute_script("""
+    var element = arguments[0];
+    var deltaY = arguments[1];
+    var box = element.getBoundingClientRect();
+    var clientX = box.left + (arguments[2] || box.width / 2);
+    var clientY = box.top + (arguments[3] || box.height / 2);
+    var target = element.ownerDocument.elementFromPoint(clientX, clientY);
+
+    for (var e = target; e; e = e.parentElement) {
+      if (e === element) {
+        target.dispatchEvent(new MouseEvent('mouseover', {view: window, bubbles: true, cancelable: true, clientX: clientX, clientY: clientY}));
+        target.dispatchEvent(new MouseEvent('mousemove', {view: window, bubbles: true, cancelable: true, clientX: clientX, clientY: clientY}));
+        target.dispatchEvent(new WheelEvent('wheel',     {view: window, bubbles: true, cancelable: true, clientX: clientX, clientY: clientY, deltaY: deltaY}));
+        return;
+      }
+    }    
+    return "Element is not interactable";
+    """, element, deltaY, offsetX, offsetY)
+    if error:
+        raise WebDriverException(error)
+
 if __name__ == '__main__':
-    #app = totalScraper()
-    #app.startScraping()
-    app = onescraper(scrapModel(), log_printer())
-    app.passLogin()
-    app.search_coordinates()
+    app = totalScraper()
+    app.startScraping()
+    #app = onescraper(scrapModel(), log_printer())
+    #app.passLogin()
+    #app.search_coordinates()

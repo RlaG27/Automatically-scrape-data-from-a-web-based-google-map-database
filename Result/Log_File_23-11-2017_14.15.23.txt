@@ -1,0 +1,26 @@
+Success:	Go to 'https://radius.unionrealtime.com/home'.
+Success:	Clicked SIGN IN button.
+Success:	Put email.
+Success:	Put password.
+Success:	Clicked login button.
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully
+Error:	Clicked (110.0, 30.0), but can't go in more depth
+Success:	Clicked minus button successfully
+Error:	Failed to click (110.0, 40.0).
+Success:	Clicked minus button successfully
+Error:	Clicked (120.0, 30.0), but can't go in more depth
+Success:	Clicked minus button successfully
+Error:	Failed to click (120.0, 40.0).
+Success:	Clicked minus button successfully
+Error:	Clicked (130.0, 30.0), but can't go in more depth
+Success:	Clicked minus button successfully
+Error:	Failed to click (130.0, 40.0).
+Error:	Can't go into 'Port Angeles, WA'
+
+###########################################################################################################################################################
+
+Success:	Clicked minus button successfully
+Error:	Clicked (110.0, 50.0), but can't go in more depth
