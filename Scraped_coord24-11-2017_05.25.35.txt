@@ -1,0 +1,37 @@
+(730.0, 440.0) : 	Ada, OK
+(810.0, 180.0) : 	Albert Lea, MN
+(600.0, 500.0) : 	Andrews, TX
+(990.0, 460.0) : 	Anniston-Oxford-Jacksonville, AL
+(720.0, 450.0) : 	Ardmore, OK
+(810.0, 450.0) : 	Arkadelphia, AR
+(950.0, 110.0) : 	Escanaba, MI
+(130.0, 160.0) : 	Eugene, OR
+(1060.0, 560.0) : 	Jacksonville-St. Marys-Palatka, FL-GA
+(830.0, 330.0) : 	Jefferson City, MO
+(1070.0, 520.0) : 	Jesup, GA
+(1050.0, 390.0) : 	Johnson City-Kingsport-Bristol, TN-VA
+(770.0, 290.0) : 	Kansas City-Overland Park-Kansas City, MO-KS
+(890.0, 390.0) : 	Kennett, MO
+(670.0, 560.0) : 	Kerrville, TX
+(1090.0, 690.0) : 	Key West, FL
+(1170.0, 430.0) : 	Kinston, NC
+(830.0, 270.0) : 	Kirksville, MO
+(160.0, 210.0) : 	Klamath Falls, OR
+(1010.0, 400.0) : 	Knoxville-Morristown-Sevierville, TN
+(240.0, 130.0) : 	La Grande, OR
+(1070.0, 620.0) : 	Lakeland-Winter Haven, FL
+(610.0, 490.0) : 	Lamesa, TX
+(1200.0, 290.0) : 	Lancaster, PA
+(1000.0, 210.0) : 	Lansing-East Lansing-Owosso, MI
+(830.0, 430.0) : 	Little Rock-North Little Rock, AR
+(1020.0, 370.0) : 	London, KY
+(220.0, 440.0) : 	Los Angeles-Long Beach, CA
+(980.0, 330.0) : 	Louisville/Jefferson County-Elizabethtown-Madison, KY-IN
+(880.0, 190.0) : 	Madison-Janesville-Beloit, WI
+(780.0, 160.0) : 	Mankato-New Ulm-North Mankato, MN
+(940.0, 90.0) : 	Marquette, MI
+(750.0, 150.0) : 	Marshall, MN
+(820.0, 230.0) : 	Marshalltown, IA
+(1120.0, 380.0) : 	Martinsville, VA
+(900.0, 390.0) : 	Martin-Union City, TN-KY
+(1090.0, 630.0) : 	Miami-Fort Lauderdale-Port St. Lucie, FL

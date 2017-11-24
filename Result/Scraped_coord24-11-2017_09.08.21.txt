@@ -1,0 +1,32 @@
+(110.0, 30.0) : 	Port Angeles, WA
+(110.0, 180.0) : 	Coos Bay, OR
+(110.0, 50.0) : 	Aberdeen, WA
+(120.0, 150.0) : 	Newport, OR
+(120.0, 200.0) : 	Roseburg, OR
+(130.0, 50.0) : 	Seattle-Tacoma, WA
+(130.0, 160.0) : 	Eugene, OR
+(120.0, 130.0) : 	Portland-Vancouver-Salem, OR-WA
+(140.0, 310.0) : 	Clearlake, CA
+(150.0, 330.0) : 	San Jose-San Francisco-Oakland, CA
+(160.0, 210.0) : 	Klamath Falls, OR
+(140.0, 210.0) : 	Medford-Grants Pass, OR
+(180.0, 120.0) : 	The Dalles, OR
+(180.0, 160.0) : 	Bend-Redmond-Prineville, OR
+(160.0, 320.0) : 	Sacramento-Roseville, CA
+(190.0, 380.0) : 	Fresno-Madera, CA
+(210.0, 110.0) : 	Hermiston-Pendleton, OR
+(210.0, 230.0) : 	Reno-Carson City-Fernley, NV
+(200.0, 340.0) : 	Sonora, CA
+(210.0, 410.0) : 	Bakersfield, CA
+(240.0, 130.0) : 	La Grande, OR
+(250.0, 0.0) : 	Spokane-Spokane Valley-Coeur dAlene, WA-ID
+(250.0, 160.0) : 	Boise City-Mountain Home-Ontario, ID-OR
+(250.0, 320.0) : 	Las Vegas-Henderson, NV-AZ
+(220.0, 440.0) : 	Los Angeles-Long Beach, CA
+(280.0, 20.0) : 	Sandpoint, ID
+(330.0, 500.0) : 	Yuma, AZ
+(270.0, 480.0) : 	San Diego-Carlsbad, CA
+(350.0, 360.0) : 	St. George, UT
+(360.0, 410.0) : 	Flagstaff, AZ
+(350.0, 230.0) : 	Salt Lake City-Provo-Orem, UT
+(360.0, 420.0) : 	Prescott, AZ

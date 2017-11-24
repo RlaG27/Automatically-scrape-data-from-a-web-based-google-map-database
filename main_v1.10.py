@@ -49,7 +49,8 @@ class scrapModel():
             for i in range(len(header)):
                 self.out_sheet.cell(row=1, column=i + 1).value = header[i]
 
-            self.output_name = 'Result/result.xlsx'
+            curTime = time.strftime("%d-%m-%Y_%H.%M.%S")
+            self.output_name = 'Result/result' + curTime + '.xlsx'
             self.out_xfile.save(self.output_name)
             logTxt = "Success:\tCreated output XLSX file successfully."
             self.log_printer.print_log(logTxt)
@@ -79,9 +80,8 @@ class scrapModel():
             for i in range(sheet_in.nrows):
                 if i == 0:
                     continue
-
-                #self.coordinates.append([sheet_in.row(i)[1].value, sheet_in.row(i)[2].value])
-                #print([self.out_sheet_in.row(i)[2].value, self.out_sheet_in.row(i)[3].value])
+                if sheet_in.row(i)[0].value == '':
+                    continue
 
                 if sheet_in.row(i)[0].value not in self.coordinates:
                     self.coordinates[sheet_in.row(i)[0].value] = []
@@ -96,6 +96,21 @@ class scrapModel():
 
         except:
             logTxt = "Error:\tFailed to read coordinates XLSX file."
+            self.log_printer.print_log(logTxt)
+            exit(1)
+
+        ''' Load Coordinates XLSX file '''
+        try:
+            self.in_coor_name = 'Data/coordinates.xlsx'
+
+            self.xfile_in = openpyxl.load_workbook(self.in_coor_name)
+            self.sheet_in = self.xfile_in.active
+
+            logTxt = "Success:\tLoad coordinates XLSX file successfully."
+            self.log_printer.print_log(logTxt)
+
+        except:
+            logTxt = "Error:\tFailed to load coordinates XLSX file."
             self.log_printer.print_log(logTxt)
             exit(1)
 
@@ -138,13 +153,24 @@ class scrapModel():
     def add_row(self, row):
         self.total_out.append(row)
 
+    def remove_row_from_coordinates_xlsx(self, location):
+        for i in range(self.sheet_in.max_row):
+            if i == 0:
+                continue
+            if self.sheet_in.cell(row=i + 1, column=1).value == location:
+                self.sheet_in.cell(row=i + 1, column=1).value = ''
+                self.sheet_in.cell(row=i + 1, column=2).value = ''
+                self.sheet_in.cell(row=i + 1, column=3).value = ''
+                self.sheet_in.cell(row=i + 1, column=4).value = ''
+                self.xfile_in.save(self.in_coor_name)
+
 class totalScraper():
     def __init__(self):
         self.scrapModel = scrapModel()
         self.log_printer = log_printer()
 
     def startScraping(self):
-        self.max_threads = 1
+        self.max_threads = 2
         self.threads = []
 
         while self.threads or self.scrapModel.coordinates:
@@ -407,6 +433,7 @@ class onescraper():
             self.scrapModel.add_location(location)
             return
 
+        '''
         try:
             zoomin_btn = WebDriverWait(self.driver, 50).until(
                 EC.element_to_be_clickable((By.XPATH, "//button[@title='Zoom in']"))
@@ -423,7 +450,7 @@ class onescraper():
             self.log_printer.print_log(logTxt)
             self.scrapModel.add_location(location)
             return
-
+        '''
 
         try:
             fullscreen_btn = WebDriverWait(self.driver, 50).until(
@@ -445,7 +472,8 @@ class onescraper():
         self.marker_search('red')
         self.marker_search('blue')
 
-        self.log_printer.print_coord(x,y)
+        self.log_printer.print_coord(x,y, location)
+        self.scrapModel.remove_row_from_coordinates_xlsx(location)
 
         try:
             fullscreen_btn = WebDriverWait(self.driver, 50).until(
@@ -591,7 +619,7 @@ class onescraper():
                     EC.visibility_of_element_located(
                         (By.CSS_SELECTOR, "div.iw"))
                 )
-                logTxt = "\t\tSucess:\tMarker overflow message is found."
+                logTxt = "\t\tSuccess:\tMarker overflow message is found."
                 self.log_printer.print_log(logTxt)
 
             except:
@@ -772,7 +800,7 @@ class onescraper():
                     "//*[@id='page-wrapper']/div[2]/div[1]/div/div[1]/div/div/div[1]/div/div/div/div/div[1]/div[4]/div[4]/div[2]/div[3]")
                 close_btn.click()
 
-                logTxt = "\t\tSucess:\tScraped data from marker overflow message."
+                logTxt = "\t\tSuccess:\tScraped data from marker overflow message."
                 self.log_printer.print_log(logTxt)
 
             except:
@@ -831,8 +859,8 @@ class log_printer():
         self.logFile.flush()
         print(logTxt + '\n')
 
-    def print_coord(self, x, y):
-        logTxt= "({}, {})".format(x,y)
+    def print_coord(self, x, y, location):
+        logTxt= "({}, {}) : \t{}".format(x,y, location)
         self.scraped_coord.write(logTxt + '\n')
         self.scraped_coord.flush()
         print(logTxt + '\n')

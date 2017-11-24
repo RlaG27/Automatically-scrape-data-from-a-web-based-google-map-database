@@ -1,0 +1,16 @@
+(460.0, 440.0) : 	Albuquerque-Santa Fe-Las Vegas, NM
+(530.0, 380.0) : 	Taos, NM
+(520.0, 310.0) : 	Denver-Aurora, CO
+(550.0, 340.0) : 	Pueblo-Canon City, CO
+(620.0, 380.0) : 	Guymon, OK
+(630.0, 340.0) : 	Garden City, KS
+(640.0, 530.0) : 	San Angelo, TX
+(650.0, 500.0) : 	Sweetwater, TX
+(650.0, 590.0) : 	Eagle Pass, TX
+(550.0, 320.0) : 	Colorado Springs, CO
+(660.0, 420.0) : 	Elk City, OK
+(660.0, 580.0) : 	Uvalde, TX
+(690.0, 150.0) : 	Huron, SD
+(690.0, 250.0) : 	Grand Island, NE
+(670.0, 570.0) : 	San Antonio-New Braunfels, TX
+(700.0, 170.0) : 	Mitchell, SD

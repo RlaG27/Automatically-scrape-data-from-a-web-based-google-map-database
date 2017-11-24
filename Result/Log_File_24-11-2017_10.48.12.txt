@@ -1,0 +1,3 @@
+Success:	Created output XLSX file successfully.
+Success:	Read coordinates XLSX file successfully.
+Success:	Load coordinates XLSX file successfully.
